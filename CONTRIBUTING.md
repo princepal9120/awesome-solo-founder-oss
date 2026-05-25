@@ -1,54 +1,79 @@
 # Contributing
 
-Add tools that help solo founders build, launch, sell, support, or grow polished products.
+Thanks for helping improve Awesome Solo Founder OSS.
 
-## Required fields
+This list is for tools that help solo founders build, launch, sell, support, automate, or grow real products.
 
-- Name
-- GitHub repo URL
-- License
-- Category
-- Founder stage
-- Agent-readiness score
-- Why it helps
+## What belongs here
+
+Good additions are:
+
+- open source or source-available
+- useful to one-person or very small teams
+- active enough to trust
+- documented enough to install or evaluate
+- practical for at least one founder workflow
+- preferably self-hostable, scriptable, API-driven, CLI-driven, MCP-driven, or agent-operable
+
+## What does not belong
+
+Please avoid:
+
+- closed-source-only tools
+- abandoned repos
+- pure inspiration or course links
+- startup-credit lists
+- generic directories with no clear founder workflow
+- duplicate tools already represented in a better category
+- exaggerated claims that are not supported by the repo
 
 ## Categories
 
-- build
-- deploy
-- analytics
-- feedback
-- marketing
-- content
-- video-editing
-- distribution
-- launch
-- mobile-launch
-- ai-agent
-- agent-skill
-- mcp
-- trend
-- sales
-- support
-- monetization
-- docs
-- productivity
-- automation
+Use exactly one best category per tool:
 
-## Quality bar
+- `ideation`
+- `design`
+- `starter-kit`
+- `mvp-development`
+- `auth`
+- `database`
+- `ai-agent`
+- `billing`
+- `analytics`
+- `email`
+- `support`
+- `marketing`
+- `content-video`
+- `docs`
+- `deployment`
+- `security`
+- `productivity`
 
-Prefer tools that are:
+## Required fields
 
-- open source or source available
-- maintained
-- self-hostable or forkable
-- usable by one person
-- documented enough for AI agents to install or operate
+When suggesting a tool, include:
 
-Avoid:
+- Name
+- GitHub URL
+- Category
+- Short founder-focused use case
+- License or source-available note
+- Why it is better than existing tools in that category, if applicable
 
-- closed source
-- abandoned repos
-- generic advice
-- startup-credit lists
-- tools useful only for large teams
+## Quality checklist
+
+- [ ] Public source exists
+- [ ] Tool is relevant to solo founders
+- [ ] Category is the single best fit
+- [ ] Description is short and factual
+- [ ] No duplicate entry
+- [ ] License/source status checked
+- [ ] Repo appears maintained or stable
+
+## Style
+
+- Keep descriptions short.
+- Do not use hype language.
+- Prefer "what job this does" over marketing copy.
+- Use canonical GitHub repo URLs.
+- Do not add star counts unless the repo already uses automated metadata.

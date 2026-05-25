@@ -1,631 +1,489 @@
 tools:
-  - name: Supabase
-    repo: https://github.com/supabase/supabase
-    category: build
-    use: Backend, auth, database, storage
-    stage: mvp
-    agent_readiness: 5
-  - name: Appwrite
-    repo: https://github.com/appwrite/appwrite
-    category: build
-    use: Backend platform
-    stage: mvp
-    agent_readiness: 5
-  - name: PocketBase
-    repo: https://github.com/pocketbase/pocketbase
-    category: build
-    use: Tiny backend for fast MVPs
-    stage: mvp
-    agent_readiness: 5
-  - name: Open SaaS
-    repo: https://github.com/wasp-lang/open-saas
-    category: build
-    use: SaaS starter with auth, jobs, payments
-    stage: mvp
-    agent_readiness: 5
-  - name: Coolify
-    repo: https://github.com/coollabsio/coolify
-    category: deploy
-    use: Self-hosted deployment platform
-    stage: launch
-    agent_readiness: 4
-  - name: PostHog
-    repo: https://github.com/PostHog/posthog
-    category: analytics
-    use: Product analytics, session replay, flags, surveys
-    stage: learn
-    agent_readiness: 5
-  - name: Plausible
-    repo: https://github.com/plausible/analytics
-    category: analytics
-    use: Privacy-friendly web analytics
-    stage: learn
-    agent_readiness: 4
-  - name: Mautic
-    repo: https://github.com/mautic/mautic
-    category: marketing
-    use: Marketing automation
-    stage: growth
-    agent_readiness: 4
-  - name: Listmonk
-    repo: https://github.com/knadh/listmonk
-    category: marketing
-    use: Newsletter and mailing lists
-    stage: growth
-    agent_readiness: 5
-  - name: Dittofeed
-    repo: https://github.com/dittofeed/dittofeed
-    category: marketing
-    use: Customer engagement automation across email, SMS, push, WhatsApp, Slack, and more
-    stage: growth
-    agent_readiness: 5
-  - name: Dub
-    repo: https://github.com/dubinc/dub
-    category: marketing
-    use: Link attribution, short links, QR codes, and campaign tracking
-    stage: growth
-    agent_readiness: 5
-  - name: Papermark
-    repo: https://github.com/papermark/papermark
-    category: marketing
-    use: Open-source DocSend alternative for pitch decks, proposals, and document analytics
-    stage: sales
-    agent_readiness: 5
-  - name: Typebot
-    repo: https://github.com/baptisteArno/typebot.io
-    category: marketing
-    use: Self-hosted chatbot and funnel builder for lead capture and onboarding
-    stage: growth
-    agent_readiness: 5
-  - name: Ghost
-    repo: https://github.com/TryGhost/Ghost
-    category: marketing
-    use: Blog, newsletter, memberships, subscriptions, and owned audience
-    stage: growth
-    agent_readiness: 4
+  - name: last30days-skill
+    repo: https://github.com/mvanhorn/last30days-skill
+    category: ideation
+    use: Recent-topic research across Reddit, X, YouTube, HN, Polymarket, and web
+  - name: lastXdays-skill
+    repo: https://github.com/levineam/lastXdays-skill
+    category: ideation
+    use: Configurable time-range trend research
+  - name: twitter-cli
+    repo: https://github.com/public-clis/twitter-cli
+    category: ideation
+    use: X/Twitter research in terminal
+  - name: rdt-cli
+    repo: https://github.com/public-clis/rdt-cli
+    category: ideation
+    use: Reddit research in terminal
+  - name: ig-cli
+    repo: https://github.com/princepal9120/ig-cli
+    category: ideation
+    use: Instagram trend discovery
+  - name: tkt-cli
+    repo: https://github.com/princepal9120/tkt-cli
+    category: ideation
+    use: TikTok trend discovery
+  - name: linkedin-cli
+    repo: https://github.com/Linked-API/linkedin-cli
+    category: ideation
+    use: LinkedIn data and account CLI
+  - name: Agent-Reach
+    repo: https://github.com/Panniantong/Agent-Reach
+    category: ideation
+    use: Multi-platform search and read CLI for agents
+  - name: MediaCrawler
+    repo: https://github.com/NanmiCoder/MediaCrawler
+    category: ideation
+    use: Social platform crawler for Chinese internet trend research
+
   - name: Webstudio
     repo: https://github.com/webstudio-is/webstudio
-    category: marketing
-    use: Open-source Webflow alternative for landing pages and marketing sites
-    stage: launch
-    agent_readiness: 4
-  - name: Payload
-    repo: https://github.com/payloadcms/payload
-    category: marketing
-    use: Headless CMS and full-stack backend for marketing sites and content ops
-    stage: launch
-    agent_readiness: 5
-  - name: GrowthBook
-    repo: https://github.com/growthbook/growthbook
-    category: marketing
-    use: Feature flags, A/B testing, and conversion experiments
-    stage: growth
-    agent_readiness: 5
-  - name: Cal.com
-    repo: https://github.com/calcom/cal.diy
-    category: marketing
-    use: Scheduling infrastructure for sales calls, demos, and onboarding
-    stage: sales
-    agent_readiness: 4
-  - name: Documenso
-    repo: https://github.com/documenso/documenso
-    category: marketing
-    use: Open-source DocuSign alternative for proposals, contracts, and deal paperwork
-    stage: sales
-    agent_readiness: 4
-  - name: Discourse
-    repo: https://github.com/discourse/discourse
-    category: marketing
-    use: Community forum for product-led growth and support
-    stage: growth
-    agent_readiness: 4
-  - name: Forem
-    repo: https://github.com/forem/forem
-    category: marketing
-    use: Community publishing platform for owned audience building
-    stage: growth
-    agent_readiness: 4
-  - name: LinkStack
-    repo: https://github.com/LinkStackOrg/LinkStack
-    category: marketing
-    use: Self-hosted link-in-bio/profile page for social campaigns
-    stage: growth
-    agent_readiness: 3
-  - name: Postiz
-    repo: https://github.com/gitroomhq/postiz-app
-    category: distribution
-    use: Social scheduling, AI content ops, MCP/API surface for TikTok, Instagram, YouTube, X, LinkedIn, Reddit, and more
-    stage: growth
-    agent_readiness: 5
-  - name: TryPost
-    repo: https://github.com/trypostit/trypost
-    category: content
-    use: Social media scheduling and content calendar for Instagram, Facebook, LinkedIn, X, TikTok, YouTube, Pinterest, Threads, Bluesky, and Mastodon
-    stage: growth
-    agent_readiness: 4
-  - name: Mixpost
-    repo: https://github.com/inovector/mixpost
-    category: content
-    use: Self-hosted Buffer-style social media management
-    stage: growth
-    agent_readiness: 4
-  - name: LateWiz
-    repo: https://github.com/zernio-dev/latewiz
-    category: content
-    use: Open-source social scheduler powered by Zernio API for Instagram, TikTok, YouTube, X, LinkedIn, Facebook, Pinterest, Threads, Bluesky, Snapchat, Telegram, Discord, and Slack
-    stage: growth
-    agent_readiness: 4
-  - name: OpenShorts
-    repo: https://github.com/mutonby/openshorts
-    category: content
-    use: AI UGC video platform, clip generator, and YouTube Studio for TikTok, Instagram Reels, and YouTube Shorts
-    stage: growth
-    agent_readiness: 4
-  - name: MoneyPrinterTurbo
-    repo: https://github.com/harry0703/MoneyPrinterTurbo
-    category: content
-    use: One-click AI short-video generation
-    stage: growth
-    agent_readiness: 4
-  - name: ai-trend-publish
-    repo: https://github.com/liyown/ai-trend-publish
-    category: content
-    use: Multi-source trend scraping, AI content generation, and scheduled publishing
-    stage: growth
-    agent_readiness: 4
-  - name: ViralCutter
-    repo: https://github.com/RafaelGodoyEbert/ViralCutter
-    category: content
-    use: Cut long YouTube videos into viral short clips
-    stage: growth
-    agent_readiness: 3
-  - name: short-video-maker
-    repo: https://github.com/gyoridavid/short-video-maker
-    category: content
-    use: MCP and REST short-form video generation for TikTok, Instagram Reels, and YouTube Shorts
-    stage: growth
-    agent_readiness: 5
-  - name: ClippedAI
-    repo: https://github.com/Shaarav4795/ClippedAI
-    category: content
-    use: Open-source OpusClip-style AI YouTube Shorts and TikTok generator
-    stage: growth
-    agent_readiness: 3
-  - name: Short Video Creator
-    repo: https://github.com/sw-aka/Short-Video-Creator
-    category: content
-    use: AI captions and background videos for YouTube Shorts, TikTok, Instagram Reels, and Snapchat Spotlight
-    stage: growth
-    agent_readiness: 3
-  - name: Remotion
-    repo: https://github.com/remotion-dev/remotion
-    category: content
-    use: Programmatic video generation with React for platform-neutral marketing assets
-    stage: growth
-    agent_readiness: 5
-  - name: Vex
-    repo: https://github.com/AKMessi/vex
-    category: video-editing
-    use: Terminal AI video editing agent with FFmpeg, Whisper, and tool calls
-    stage: growth
-    agent_readiness: 5
-  - name: VibeFrame
-    repo: https://github.com/vericontext/vibeframe
-    category: video-editing
-    use: CLI-first, MCP-ready AI-native video editor
-    stage: growth
-    agent_readiness: 5
-  - name: OpenMontage
-    repo: https://github.com/calesthio/OpenMontage
-    category: video-editing
-    use: Agentic video production system with pipelines, tools, and skills
-    stage: growth
-    agent_readiness: 5
-  - name: OpenReelio
-    repo: https://github.com/openreelio/openreelio
-    category: video-editing
-    use: Prompt-driven AI video editor for Shorts and long-form
-    stage: growth
-    agent_readiness: 4
-  - name: auto-editor
-    repo: https://github.com/WyattBlue/auto-editor
-    category: video-editing
-    use: CLI editor that automatically cuts silence and dead space from raw footage
-    stage: growth
-    agent_readiness: 5
-  - name: LosslessCut
-    repo: https://github.com/mifi/lossless-cut
-    category: video-editing
-    use: Lossless video/audio trimming and splitting for rough cuts
-    stage: growth
-    agent_readiness: 4
-  - name: AI Video Editor
-    repo: https://github.com/debarch777/AI-Video-Editor
-    category: video-editing
-    use: LLM and transcript-driven raw talking-head clip editor
-    stage: growth
-    agent_readiness: 4
-  - name: OpenTimelineIO
-    repo: https://github.com/AcademySoftwareFoundation/OpenTimelineIO
-    category: video-editing
-    use: Open timeline interchange API for agent-readable edit decisions
-    stage: growth
-    agent_readiness: 5
-  - name: MoviePy
-    repo: https://github.com/Zulko/moviepy
-    category: video-editing
-    use: Python video editing library for scripted and agent-created edits
-    stage: growth
-    agent_readiness: 5
-  - name: MLT
-    repo: https://github.com/mltframework/mlt
-    category: video-editing
-    use: Multimedia framework for programmatic timeline rendering
-    stage: growth
-    agent_readiness: 4
-  - name: Kdenlive
-    repo: https://github.com/KDE/kdenlive
-    category: video-editing
-    use: Full open-source NLE for manual finishing after agent rough cuts
-    stage: growth
-    agent_readiness: 3
-  - name: Shotcut
-    repo: https://github.com/mltframework/shotcut
-    category: video-editing
-    use: Cross-platform open-source video editor for manual polish and export
-    stage: growth
-    agent_readiness: 3
+    category: design
+    use: Open-source Webflow alternative
+  - name: Plasmic
+    repo: https://github.com/plasmicapp/plasmic
+    category: design
+    use: Visual builder for React apps, sites, and content
+  - name: GrapesJS
+    repo: https://github.com/GrapesJS/grapesjs
+    category: design
+    use: Web builder framework
+  - name: Figma Context MCP
+    repo: https://github.com/GLips/Figma-Context-MCP
+    category: design
+    use: Figma layout context for AI coding agents
   - name: Hyperframes
     repo: https://github.com/heygen-com/hyperframes
-    category: launch
-    use: Agent-friendly HTML-to-video launch videos
-    stage: launch
-    agent_readiness: 5
-  - name: OpenScreen
-    repo: https://github.com/siddharthvaddem/openscreen
-    category: launch
-    use: Product demo videos, Screen Studio alternative
-    stage: launch
-    agent_readiness: 4
-  - name: Hyperframes Launch Video
-    repo: https://github.com/heygen-com/hyperframes-launch-video
-    category: launch
-    use: Example launch-video workflow for Hyperframes
-    stage: launch
-    agent_readiness: 4
-  - name: Hyperframes Launches
-    repo: https://github.com/heygen-com/hyperframes-launches
-    category: launch
-    use: Open-source production launch-video compositions
-    stage: launch
-    agent_readiness: 4
-  - name: Hyperframes AI Video Generation
-    repo: https://github.com/coleam00/hyperframes-ai-video-generation
-    category: launch
-    use: URL-to-polished AI-voiced HyperFrames short workflow
-    stage: launch
-    agent_readiness: 4
-  - name: ViralMint
-    repo: https://github.com/openclaw-easy/ViralMint
-    category: launch
-    use: Trend scouting, competitor analysis, AI video generation, and auto-publishing
-    stage: growth
-    agent_readiness: 4
-  - name: Appshot
-    repo: https://github.com/chrisvanbuskirk/appshot
-    category: mobile-launch
-    use: CLI for App Store screenshots
-    stage: launch
-    agent_readiness: 4
-  - name: Video Preview App Store
-    repo: https://github.com/mdo91/video-preview-appstore
-    category: mobile-launch
-    use: Convert screen recordings into App Store preview-compatible MP4s
-    stage: launch
-    agent_readiness: 4
-  - name: Storeshots
-    repo: https://github.com/eralpozcan/storeshots
-    category: mobile-launch
-    use: App Store and Google Play screenshot generator with device mockups
-    stage: launch
-    agent_readiness: 4
-  - name: fastlane
-    repo: https://github.com/fastlane/fastlane
-    category: mobile-launch
-    use: Automate iOS and Android beta deploys, screenshots, metadata, and release flow
-    stage: launch
-    agent_readiness: 5
+    category: design
+    use: HTML-to-video launch explainers
+
+  - name: Open SaaS
+    repo: https://github.com/wasp-lang/open-saas
+    category: starter-kit
+    use: SaaS starter with auth, jobs, payments, and landing page
+  - name: SaaS Boilerplate
+    repo: https://github.com/ixartz/SaaS-Boilerplate
+    category: starter-kit
+    use: Next.js SaaS starter
+  - name: XcodeBuildMCP iOS Template
+    repo: https://github.com/getsentry/XcodeBuildMCP-iOS-Template
+    category: starter-kit
+    use: iOS starter template for agent-assisted builds
+
+  - name: Payload
+    repo: https://github.com/payloadcms/payload
+    category: mvp-development
+    use: Full-stack Next.js backend, admin panel, and CMS
+  - name: JeecgBoot
+    repo: https://github.com/jeecgboot/JeecgBoot
+    category: mvp-development
+    use: AI low-code app builder
+  - name: Budibase
+    repo: https://github.com/Budibase/budibase
+    category: mvp-development
+    use: Internal apps, automations, and operations tools
+  - name: ToolJet
+    repo: https://github.com/ToolJet/ToolJet
+    category: mvp-development
+    use: App builder and AI workflow foundation
+
+  - name: Better Auth
+    repo: https://github.com/better-auth/better-auth
+    category: auth
+    use: TypeScript authentication framework
+  - name: Auth.js
+    repo: https://github.com/nextauthjs/next-auth
+    category: auth
+    use: Web authentication library
+  - name: Logto
+    repo: https://github.com/logto-io/logto
+    category: auth
+    use: Auth and authorization infrastructure for SaaS and AI apps
+
+  - name: Supabase
+    repo: https://github.com/supabase/supabase
+    category: database
+    use: Postgres, auth, storage, realtime, and edge functions
+  - name: PocketBase
+    repo: https://github.com/pocketbase/pocketbase
+    category: database
+    use: SQLite-backed app backend in one binary
+  - name: Appwrite
+    repo: https://github.com/appwrite/appwrite
+    category: database
+    use: Auth, database, storage, and functions
+  - name: Directus
+    repo: https://github.com/directus/directus
+    category: database
+    use: Headless CMS and data platform over SQL
+
   - name: Codex
     repo: https://github.com/openai/codex
     category: ai-agent
-    use: Terminal coding agent for building, refactoring, tests, and docs
-    stage: build
-    agent_readiness: 5
+    use: Terminal coding agent
   - name: Claude Code
     repo: https://github.com/anthropics/claude-code
     category: ai-agent
-    use: Agentic coding tool in terminal for codebase work and git workflows
-    stage: build
-    agent_readiness: 5
+    use: Agentic coding tool in terminal
   - name: Gemini CLI
     repo: https://github.com/google-gemini/gemini-cli
     category: ai-agent
-    use: Open-source Gemini coding and research agent in terminal
-    stage: build
-    agent_readiness: 5
+    use: Gemini coding and research agent
   - name: OpenCode
     repo: https://github.com/anomalyco/opencode
     category: ai-agent
     use: Open-source multi-model coding agent
-    stage: build
-    agent_readiness: 5
   - name: Qwen Code
     repo: https://github.com/QwenLM/qwen-code
     category: ai-agent
     use: Open-source terminal coding agent
-    stage: build
-    agent_readiness: 5
-  - name: Maccy
-    repo: https://github.com/p0deje/Maccy
-    category: productivity
-    use: Lightweight macOS clipboard manager for prompts, snippets, links, and launch copy
-    stage: operations
-    agent_readiness: 4
-  - name: Rectangle
-    repo: https://github.com/rxhanson/Rectangle
-    category: productivity
-    use: macOS window management with keyboard shortcuts and snap areas
-    stage: operations
-    agent_readiness: 3
-  - name: Espanso
-    repo: https://github.com/espanso/espanso
-    category: productivity
-    use: Cross-platform text expander for support replies, prompts, and snippets
-    stage: operations
-    agent_readiness: 4
-  - name: ActivityWatch
-    repo: https://github.com/ActivityWatch/activitywatch
-    category: productivity
-    use: Privacy-first automated time tracker
-    stage: operations
-    agent_readiness: 4
-  - name: Ice
-    repo: https://github.com/jordanbaird/Ice
-    category: productivity
-    use: macOS menu bar manager
-    stage: operations
-    agent_readiness: 3
-  - name: AppFlowy
-    repo: https://github.com/AppFlowy-IO/AppFlowy
-    category: productivity
-    use: Open-source Notion alternative for product docs and launch planning
-    stage: operations
-    agent_readiness: 4
-  - name: Logseq
-    repo: https://github.com/logseq/logseq
-    category: productivity
-    use: Local-first knowledge management for research notes and founder memory
-    stage: operations
-    agent_readiness: 3
-  - name: Joplin
-    repo: https://github.com/laurent22/joplin
-    category: productivity
-    use: Privacy-focused notes with sync across desktop and mobile
-    stage: operations
-    agent_readiness: 3
-  - name: LocalSend
-    repo: https://github.com/localsend/localsend
-    category: productivity
-    use: Local cross-platform file sharing for screenshots, videos, and assets
-    stage: operations
-    agent_readiness: 3
-  - name: Syncthing
-    repo: https://github.com/syncthing/syncthing
-    category: productivity
-    use: Continuous private file sync for assets and notes
-    stage: operations
-    agent_readiness: 4
-  - name: Bitwarden Clients
-    repo: https://github.com/bitwarden/clients
-    category: productivity
-    use: Password manager clients and CLI for secrets hygiene
-    stage: operations
-    agent_readiness: 4
-  - name: Zoxide
-    repo: https://github.com/ajeetdsouza/zoxide
-    category: productivity
-    use: Smarter terminal directory jumping
-    stage: operations
-    agent_readiness: 5
-  - name: awesome-claude-code
-    repo: https://github.com/hesreallyhim/awesome-claude-code
-    category: agent-skill
-    use: Curated Claude Code skills, hooks, slash commands, plugins, and orchestrators
-    stage: build
-    agent_readiness: 5
-  - name: Trail of Bits skills
-    repo: https://github.com/trailofbits/skills
-    category: agent-skill
-    use: Claude Code security research, vulnerability detection, and audit skills
-    stage: launch
-    agent_readiness: 5
-  - name: planning-with-files
-    repo: https://github.com/OthmanAdi/planning-with-files
-    category: agent-skill
-    use: Persistent markdown planning skill for agent project planning
-    stage: build
-    agent_readiness: 5
-  - name: NotFair
-    repo: https://github.com/nowork-studio/NotFair
-    category: agent-skill
-    use: Claude Code skills for SEO, GEO, Google Ads, and Meta Ads
-    stage: growth
-    agent_readiness: 5
   - name: XcodeBuildMCP
     repo: https://github.com/getsentry/XcodeBuildMCP
-    category: mcp
-    use: MCP server and CLI for iOS/macOS build, test, simulator, and project automation
-    stage: build
-    agent_readiness: 5
-  - name: XcodeBuildMCP iOS Template
-    repo: https://github.com/getsentry/XcodeBuildMCP-iOS-Template
-    category: mcp
-    use: Scaffold template for iOS app projects
-    stage: build
-    agent_readiness: 5
+    category: ai-agent
+    use: iOS/macOS build, test, simulator, and logs for agents
   - name: Playwright MCP
     repo: https://github.com/microsoft/playwright-mcp
-    category: mcp
-    use: Browser automation MCP server for QA, screenshots, and web testing
-    stage: launch
-    agent_readiness: 5
+    category: ai-agent
+    use: Browser automation and QA for agents
   - name: GitHub MCP Server
     repo: https://github.com/github/github-mcp-server
-    category: mcp
-    use: Official GitHub MCP server for issues, PRs, repos, and code workflow
-    stage: operations
-    agent_readiness: 5
+    category: ai-agent
+    use: GitHub issues, PRs, repos, and code workflow
   - name: Context7
     repo: https://github.com/upstash/context7
-    category: mcp
-    use: Up-to-date code documentation for LLMs and AI code editors
-    stage: build
-    agent_readiness: 5
-  - name: Figma Context MCP
-    repo: https://github.com/GLips/Figma-Context-MCP
-    category: mcp
-    use: Figma layout information for AI coding agents
-    stage: polish
-    agent_readiness: 5
+    category: ai-agent
+    use: Fresh docs for LLMs and code editors
   - name: MCP Servers
     repo: https://github.com/modelcontextprotocol/servers
-    category: mcp
+    category: ai-agent
     use: Model Context Protocol server collection
-    stage: operations
-    agent_readiness: 5
-  - name: MCP Registry
-    repo: https://github.com/modelcontextprotocol/registry
-    category: mcp
-    use: Community registry service for MCP servers
-    stage: operations
-    agent_readiness: 5
-  - name: awesome-mcp-servers
-    repo: https://github.com/punkpeye/awesome-mcp-servers
-    category: mcp
-    use: Curated list of MCP servers
-    stage: operations
-    agent_readiness: 5
-  - name: last30days-skill
-    repo: https://github.com/mvanhorn/last30days-skill
-    category: trend
-    use: Agent skill for recent-topic research across Reddit, X, YouTube, HN, Polymarket, and web
-    stage: validation
-    agent_readiness: 5
-  - name: lastXdays-skill
-    repo: https://github.com/levineam/lastXdays-skill
-    category: trend
-    use: Configurable time-range trend research skill
-    stage: validation
-    agent_readiness: 5
-  - name: public-clis
-    repo: https://github.com/public-clis/public-clis
-    category: trend
-    use: Catalog of terminal-first public web-service CLIs
-    stage: validation
-    agent_readiness: 5
-  - name: twitter-cli
-    repo: https://github.com/public-clis/twitter-cli
-    category: trend
-    use: X/Twitter feed, bookmarks, and timeline research in terminal
-    stage: validation
-    agent_readiness: 5
-  - name: rdt-cli
-    repo: https://github.com/public-clis/rdt-cli
-    category: trend
-    use: Reddit feed, post, search, upvote, save, and subscribe workflow in terminal
-    stage: validation
-    agent_readiness: 5
-  - name: ig-cli
-    repo: https://github.com/princepal9120/ig-cli
-    category: trend
-    use: Instagram CLI for trend discovery and content research
-    stage: validation
-    agent_readiness: 4
-  - name: tkt-cli
-    repo: https://github.com/princepal9120/tkt-cli
-    category: trend
-    use: TikTok trend discovery CLI for terminal-first content research
-    stage: validation
-    agent_readiness: 5
-  - name: linkedin-cli
-    repo: https://github.com/Linked-API/linkedin-cli
-    category: trend
-    use: Agent-friendly LinkedIn CLI for account control and real-time data retrieval
-    stage: validation
-    agent_readiness: 4
-  - name: Agent-Reach
-    repo: https://github.com/Panniantong/Agent-Reach
-    category: trend
-    use: Multi-platform search and read CLI for agents across Twitter, Reddit, YouTube, GitHub, Bilibili, and XiaoHongShu
-    stage: validation
-    agent_readiness: 5
-  - name: MediaCrawler
-    repo: https://github.com/NanmiCoder/MediaCrawler
-    category: trend
-    use: Social platform crawler for posts, videos, comments, and trend research
-    stage: validation
-    agent_readiness: 4
+  - name: UI-TARS Desktop
+    repo: https://github.com/bytedance/UI-TARS-desktop
+    category: ai-agent
+    use: Open-source multimodal desktop agent stack
+  - name: CowAgent
+    repo: https://github.com/zhayujie/CowAgent
+    category: ai-agent
+    use: AI assistant and agent harness
+  - name: CodeWhale
+    repo: https://github.com/Hmbown/CodeWhale
+    category: ai-agent
+    use: DeepSeek-first agentic coding terminal
+
+  - name: Polar
+    repo: https://github.com/polarsource/polar
+    category: billing
+    use: Developer-product payments, subscriptions, and digital products
+  - name: Lago
+    repo: https://github.com/getlago/lago
+    category: billing
+    use: Usage-based billing and metering
+  - name: Kill Bill
+    repo: https://github.com/killbill/killbill
+    category: billing
+    use: Subscription billing platform
+
+  - name: PostHog
+    repo: https://github.com/PostHog/posthog
+    category: analytics
+    use: Product analytics, replay, flags, and surveys
+  - name: Plausible
+    repo: https://github.com/plausible/analytics
+    category: analytics
+    use: Privacy-friendly web analytics
+  - name: Umami
+    repo: https://github.com/umami-software/umami
+    category: analytics
+    use: Simple self-hosted web analytics
+  - name: GrowthBook
+    repo: https://github.com/growthbook/growthbook
+    category: analytics
+    use: Feature flags, experiments, and product analytics
+  - name: Formbricks
+    repo: https://github.com/formbricks/formbricks
+    category: analytics
+    use: User research and surveys
+  - name: Fider
+    repo: https://github.com/getfider/fider
+    category: analytics
+    use: Feature requests and feedback voting
+
+  - name: Listmonk
+    repo: https://github.com/knadh/listmonk
+    category: email
+    use: Newsletter and mailing lists
+  - name: Mautic
+    repo: https://github.com/mautic/mautic
+    category: email
+    use: Marketing automation
+  - name: Dittofeed
+    repo: https://github.com/dittofeed/dittofeed
+    category: email
+    use: Customer engagement across email, SMS, push, WhatsApp, and Slack
+  - name: useSend
+    repo: https://github.com/usesend/useSend
+    category: email
+    use: Transactional email platform
+  - name: Ghost
+    repo: https://github.com/TryGhost/Ghost
+    category: email
+    use: Publishing, newsletters, memberships, and subscriptions
+
   - name: Twenty
     repo: https://github.com/twentyhq/twenty
-    category: sales
+    category: support
+    use: Modern CRM
+  - name: EspoCRM
+    repo: https://github.com/espocrm/espocrm
+    category: support
     use: CRM
-    stage: sales
-    agent_readiness: 4
   - name: Chatwoot
     repo: https://github.com/chatwoot/chatwoot
     category: support
     use: Support inbox and live chat
-    stage: support
-    agent_readiness: 4
-  - name: Formbricks
-    repo: https://github.com/formbricks/formbricks
-    category: feedback
-    use: Surveys and customer feedback
-    stage: learn
-    agent_readiness: 4
-  - name: Fider
-    repo: https://github.com/getfider/fider
-    category: feedback
-    use: Feature requests and feedback voting
-    stage: learn
-    agent_readiness: 4
-  - name: Polar
-    repo: https://github.com/polarsource/polar
-    category: monetization
-    use: Developer payments and subscriptions
-    stage: revenue
-    agent_readiness: 5
-  - name: Lago
-    repo: https://github.com/getlago/lago
-    category: monetization
-    use: Usage-based billing
-    stage: revenue
-    agent_readiness: 5
+  - name: Frappe Helpdesk
+    repo: https://github.com/frappe/helpdesk
+    category: support
+    use: Helpdesk
+  - name: Typebot
+    repo: https://github.com/baptisteArno/typebot.io
+    category: support
+    use: Chatbot and funnel builder
+  - name: Cal.com
+    repo: https://github.com/calcom/cal.diy
+    category: support
+    use: Scheduling for demos, sales calls, and onboarding
+  - name: Discourse
+    repo: https://github.com/discourse/discourse
+    category: support
+    use: Community forum
+  - name: Forem
+    repo: https://github.com/forem/forem
+    category: support
+    use: Community publishing platform
+
+  - name: Dub
+    repo: https://github.com/dubinc/dub
+    category: marketing
+    use: Link attribution, short links, QR codes, and campaign tracking
+  - name: Papermark
+    repo: https://github.com/papermark/papermark
+    category: marketing
+    use: Pitch decks, proposals, and document analytics
+  - name: Postiz
+    repo: https://github.com/gitroomhq/postiz-app
+    category: marketing
+    use: Agentic social media scheduling
+  - name: Mixpost
+    repo: https://github.com/inovector/mixpost
+    category: marketing
+    use: Self-hosted social media management
+  - name: TryPost
+    repo: https://github.com/trypostit/trypost
+    category: marketing
+    use: Social scheduling and content calendar
+  - name: LateWiz
+    repo: https://github.com/zernio-dev/latewiz
+    category: marketing
+    use: Multi-platform social scheduler
+  - name: LinkStack
+    repo: https://github.com/LinkStackOrg/LinkStack
+    category: marketing
+    use: Self-hosted link-in-bio/profile page
+  - name: seotoolsuite
+    repo: https://github.com/nitishkgupta/seotoolsuite
+    category: marketing
+    use: SEO tooling
+  - name: RespectASO
+    repo: https://github.com/respectlytics/respectaso
+    category: marketing
+    use: App Store Optimization keyword research
+
+  - name: ViralMint
+    repo: https://github.com/openclaw-easy/ViralMint
+    category: content-video
+    use: Trend scouting, competitor analysis, AI video generation, and auto-publishing
+  - name: OpenShorts
+    repo: https://github.com/mutonby/openshorts
+    category: content-video
+    use: AI UGC video platform and clip generator
+  - name: MoneyPrinterTurbo
+    repo: https://github.com/harry0703/MoneyPrinterTurbo
+    category: content-video
+    use: One-click AI short-video generation
+  - name: ai-trend-publish
+    repo: https://github.com/liyown/ai-trend-publish
+    category: content-video
+    use: Trend scraping, AI content generation, and scheduled publishing
+  - name: short-video-maker
+    repo: https://github.com/gyoridavid/short-video-maker
+    category: content-video
+    use: MCP and REST short-video generation
+  - name: ClippedAI
+    repo: https://github.com/Shaarav4795/ClippedAI
+    category: content-video
+    use: Open-source OpusClip-style shorts generator
+  - name: ViralCutter
+    repo: https://github.com/RafaelGodoyEbert/ViralCutter
+    category: content-video
+    use: Cut long YouTube videos into short clips
+  - name: vex
+    repo: https://github.com/AKMessi/vex
+    category: content-video
+    use: Terminal AI video editing agent
+  - name: VibeFrame
+    repo: https://github.com/vericontext/vibeframe
+    category: content-video
+    use: CLI-first, MCP-ready AI-native video editor
+  - name: OpenMontage
+    repo: https://github.com/calesthio/OpenMontage
+    category: content-video
+    use: Agentic video production system
+  - name: OpenReelio
+    repo: https://github.com/openreelio/openreelio
+    category: content-video
+    use: Prompt-driven AI video editor
+  - name: auto-editor
+    repo: https://github.com/WyattBlue/auto-editor
+    category: content-video
+    use: Auto-cuts silence and dead space from raw footage
+  - name: LosslessCut
+    repo: https://github.com/mifi/lossless-cut
+    category: content-video
+    use: Lossless video/audio trimming and splitting
+  - name: OpenScreen
+    repo: https://github.com/siddharthvaddem/openscreen
+    category: content-video
+    use: Product demo videos
+  - name: Remotion
+    repo: https://github.com/remotion-dev/remotion
+    category: content-video
+    use: Programmatic video generation with React
+  - name: MoviePy
+    repo: https://github.com/Zulko/moviepy
+    category: content-video
+    use: Python video editing library
+  - name: OpenTimelineIO
+    repo: https://github.com/AcademySoftwareFoundation/OpenTimelineIO
+    category: content-video
+    use: Timeline interchange API
+  - name: Kdenlive
+    repo: https://github.com/KDE/kdenlive
+    category: content-video
+    use: Full open-source video editor
+  - name: Shotcut
+    repo: https://github.com/mltframework/shotcut
+    category: content-video
+    use: Cross-platform open-source video editor
+
   - name: Docusaurus
     repo: https://github.com/facebook/docusaurus
     category: docs
     use: Documentation website
-    stage: polish
-    agent_readiness: 5
-  - name: Activepieces
-    repo: https://github.com/activepieces/activepieces
-    category: automation
-    use: Workflow automation, MCP, AI agents
-    stage: operations
-    agent_readiness: 5
-  - name: n8n
-    repo: https://github.com/n8n-io/n8n
-    category: automation
-    use: Workflow automation with native AI features
-    stage: operations
-    agent_readiness: 5
+  - name: Docmost
+    repo: https://github.com/docmost/docmost
+    category: docs
+    use: Collaborative wiki and docs
+  - name: AppFlowy
+    repo: https://github.com/AppFlowy-IO/AppFlowy
+    category: docs
+    use: Open-source Notion alternative
+  - name: Logseq
+    repo: https://github.com/logseq/logseq
+    category: docs
+    use: Local-first knowledge management
+  - name: Joplin
+    repo: https://github.com/laurent22/joplin
+    category: docs
+    use: Privacy-focused notes with sync
+  - name: MinerU
+    repo: https://github.com/opendatalab/MinerU
+    category: docs
+    use: Converts PDFs and Office docs into LLM-ready markdown and JSON
+
+  - name: Coolify
+    repo: https://github.com/coollabsio/coolify
+    category: deployment
+    use: Self-hosted deployment platform
+  - name: Dokploy
+    repo: https://github.com/Dokploy/dokploy
+    category: deployment
+    use: Open-source Vercel, Netlify, and Heroku alternative
+  - name: CapRover
+    repo: https://github.com/caprover/caprover
+    category: deployment
+    use: Docker-powered app deployment platform
+  - name: Dokku
+    repo: https://github.com/dokku/dokku
+    category: deployment
+    use: Lightweight Heroku-style PaaS
+  - name: OpenStatus
+    repo: https://github.com/openstatusHQ/openstatus
+    category: deployment
+    use: Uptime monitoring and status pages
+  - name: fastlane
+    repo: https://github.com/fastlane/fastlane
+    category: deployment
+    use: iOS and Android release automation
+  - name: video-preview-appstore
+    repo: https://github.com/mdo91/video-preview-appstore
+    category: deployment
+    use: App Store preview-compatible MP4 conversion
+  - name: App Store Screenshots Generator
+    repo: https://github.com/jawwadfirdousi/appstore-screenshots-generator
+    category: deployment
+    use: App Store screenshot generator
+  - name: Appshot
+    repo: https://github.com/chrisvanbuskirk/appshot
+    category: deployment
+    use: CLI for App Store screenshots
+  - name: Storeshots
+    repo: https://github.com/eralpozcan/storeshots
+    category: deployment
+    use: App Store and Google Play screenshot generator
+
+  - name: Bitwarden Clients
+    repo: https://github.com/bitwarden/clients
+    category: security
+    use: Password manager clients and CLI
+  - name: Trail of Bits skills
+    repo: https://github.com/trailofbits/skills
+    category: security
+    use: Claude Code security research and audit skills
+  - name: Documenso
+    repo: https://github.com/documenso/documenso
+    category: security
+    use: Open-source DocuSign alternative
+
+  - name: Maccy
+    repo: https://github.com/p0deje/Maccy
+    category: productivity
+    use: Lightweight macOS clipboard manager
+  - name: Rectangle
+    repo: https://github.com/rxhanson/Rectangle
+    category: productivity
+    use: macOS window management
+  - name: Espanso
+    repo: https://github.com/espanso/espanso
+    category: productivity
+    use: Cross-platform text expander
+  - name: ActivityWatch
+    repo: https://github.com/ActivityWatch/activitywatch
+    category: productivity
+    use: Privacy-first automated time tracker
+  - name: Ice
+    repo: https://github.com/jordanbaird/Ice
+    category: productivity
+    use: macOS menu bar manager
+  - name: LocalSend
+    repo: https://github.com/localsend/localsend
+    category: productivity
+    use: Local cross-platform file sharing
+  - name: Syncthing
+    repo: https://github.com/syncthing/syncthing
+    category: productivity
+    use: Continuous private file sync
+  - name: Zoxide
+    repo: https://github.com/ajeetdsouza/zoxide
+    category: productivity
+    use: Smarter terminal directory jumping

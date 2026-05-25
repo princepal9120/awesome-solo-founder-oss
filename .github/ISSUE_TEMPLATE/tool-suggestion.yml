@@ -1,0 +1,65 @@
+name: Tool suggestion
+description: Suggest an OSS/source-available tool for solo founders
+title: "Add: "
+labels:
+  - tool-suggestion
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Tool name
+      placeholder: "Example: Supabase"
+    validations:
+      required: true
+  - type: input
+    id: repo
+    attributes:
+      label: GitHub repo
+      placeholder: "https://github.com/owner/repo"
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Best category
+      options:
+        - ideation
+        - design
+        - starter-kit
+        - mvp-development
+        - auth
+        - database
+        - ai-agent
+        - billing
+        - analytics
+        - email
+        - support
+        - marketing
+        - content-video
+        - docs
+        - deployment
+        - security
+        - productivity
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Founder use case
+      description: What solo-founder job does this tool solve?
+      placeholder: "Helps founders..."
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License or source status
+      placeholder: "MIT, Apache-2.0, AGPL-3.0, source-available, etc."
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Why is this better or different than tools already listed?
+

@@ -197,6 +197,78 @@ tools:
     use: Open-source terminal coding agent
     stage: build
     agent_readiness: 5
+  - name: Maccy
+    repo: https://github.com/p0deje/Maccy
+    category: productivity
+    use: Lightweight macOS clipboard manager for prompts, snippets, links, and launch copy
+    stage: operations
+    agent_readiness: 4
+  - name: Rectangle
+    repo: https://github.com/rxhanson/Rectangle
+    category: productivity
+    use: macOS window management with keyboard shortcuts and snap areas
+    stage: operations
+    agent_readiness: 3
+  - name: Espanso
+    repo: https://github.com/espanso/espanso
+    category: productivity
+    use: Cross-platform text expander for support replies, prompts, and snippets
+    stage: operations
+    agent_readiness: 4
+  - name: ActivityWatch
+    repo: https://github.com/ActivityWatch/activitywatch
+    category: productivity
+    use: Privacy-first automated time tracker
+    stage: operations
+    agent_readiness: 4
+  - name: Ice
+    repo: https://github.com/jordanbaird/Ice
+    category: productivity
+    use: macOS menu bar manager
+    stage: operations
+    agent_readiness: 3
+  - name: AppFlowy
+    repo: https://github.com/AppFlowy-IO/AppFlowy
+    category: productivity
+    use: Open-source Notion alternative for product docs and launch planning
+    stage: operations
+    agent_readiness: 4
+  - name: Logseq
+    repo: https://github.com/logseq/logseq
+    category: productivity
+    use: Local-first knowledge management for research notes and founder memory
+    stage: operations
+    agent_readiness: 3
+  - name: Joplin
+    repo: https://github.com/laurent22/joplin
+    category: productivity
+    use: Privacy-focused notes with sync across desktop and mobile
+    stage: operations
+    agent_readiness: 3
+  - name: LocalSend
+    repo: https://github.com/localsend/localsend
+    category: productivity
+    use: Local cross-platform file sharing for screenshots, videos, and assets
+    stage: operations
+    agent_readiness: 3
+  - name: Syncthing
+    repo: https://github.com/syncthing/syncthing
+    category: productivity
+    use: Continuous private file sync for assets and notes
+    stage: operations
+    agent_readiness: 4
+  - name: Bitwarden Clients
+    repo: https://github.com/bitwarden/clients
+    category: productivity
+    use: Password manager clients and CLI for secrets hygiene
+    stage: operations
+    agent_readiness: 4
+  - name: Zoxide
+    repo: https://github.com/ajeetdsouza/zoxide
+    category: productivity
+    use: Smarter terminal directory jumping
+    stage: operations
+    agent_readiness: 5
   - name: awesome-claude-code
     repo: https://github.com/hesreallyhim/awesome-claude-code
     category: agent-skill

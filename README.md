@@ -33,6 +33,7 @@ Goal: help one person move from idea to shipped product, distribution, support, 
 - Need faster building with agents? Use [Codex](https://github.com/openai/codex), [Claude Code](https://github.com/anthropics/claude-code), [XcodeBuildMCP](https://github.com/getsentry/XcodeBuildMCP), and [Playwright MCP](https://github.com/microsoft/playwright-mcp).
 - Need content trends? Use [last30days-skill](https://github.com/mvanhorn/last30days-skill), [twitter-cli](https://github.com/public-clis/twitter-cli), [rdt-cli](https://github.com/public-clis/rdt-cli), [ig-cli](https://github.com/princepal9120/ig-cli), and [tkt-cli](https://github.com/princepal9120/tkt-cli).
 - Need distribution? Use [Postiz](https://github.com/gitroomhq/postiz-app), [TryPost](https://github.com/trypostit/trypost), or [Mixpost](https://github.com/inovector/mixpost).
+- Need productivity base layer? Use [Maccy](https://github.com/p0deje/Maccy), [Rectangle](https://github.com/rxhanson/Rectangle), [Espanso](https://github.com/espanso/espanso), and [ActivityWatch](https://github.com/ActivityWatch/activitywatch).
 - Need monetization? Use [Polar](https://github.com/polarsource/polar), [Lago](https://github.com/getlago/lago), or [Kill Bill](https://github.com/killbill/killbill).
 
 ## Contents
@@ -54,6 +55,7 @@ Goal: help one person move from idea to shipped product, distribution, support, 
   - [Sales, CRM, and support](#sales-crm-and-support)
   - [Billing and monetization](#billing-and-monetization)
   - [Docs, website, and polish](#docs-website-and-polish)
+  - [Productivity and solo-operator tools](#productivity-and-solo-operator-tools)
   - [Automation and AI-agent operations](#automation-and-ai-agent-operations)
 - [Agent-readiness score](#agent-readiness-score)
 - [Suggested folder expansion](#suggested-folder-expansion)
@@ -92,6 +94,8 @@ Good fit:
 - Can be self-hosted, forked, scripted, or agent-operated.
 - Has clear docs or usable examples.
 - Replaces expensive SaaS cost center.
+- Is active enough to trust for founder workflows.
+- Is better than adjacent options for at least one clear solo-founder job.
 
 Avoid:
 
@@ -115,7 +119,8 @@ Avoid:
 11. Sales, CRM, support
 12. Billing and monetization
 13. Docs, polish, trust
-14. Automation and AI-agent operations
+14. Productivity and solo-operator tools
+15. Automation and AI-agent operations
 
 ## Core stack
 
@@ -156,11 +161,10 @@ Avoid:
 | [mautic/mautic](https://github.com/mautic/mautic) | Marketing automation |
 | [knadh/listmonk](https://github.com/knadh/listmonk) | Newsletter and mailing lists |
 | [usesend/useSend](https://github.com/usesend/useSend) | Transactional email platform |
-| [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app) | Social media scheduling |
-| [trypostit/trypost](https://github.com/trypostit/trypost) | Social media scheduling |
 | [nitishkgupta/seotoolsuite](https://github.com/nitishkgupta/seotoolsuite) | SEO tooling |
 | [respectlytics/respectaso](https://github.com/respectlytics/respectaso) | App Store Optimization keyword research |
-| [jawwadfirdousi/appstore-screenshots-generator](https://github.com/jawwadfirdousi/appstore-screenshots-generator) | App Store screenshots |
+
+For social scheduling, see [UGC and content engine](#ugc-and-content-engine). For app-store assets, see [iOS/Android app launch assets](#iosandroid-app-launch-assets).
 
 ### UGC and content engine
 
@@ -190,8 +194,8 @@ Tools for launch videos, product demos, screenshots, and polished campaign asset
 | [heygen-com/hyperframes-launches](https://github.com/heygen-com/hyperframes-launches) | Open-source production launch-video compositions |
 | [coleam00/hyperframes-ai-video-generation](https://github.com/coleam00/hyperframes-ai-video-generation) | URL-to-polished AI-voiced HyperFrames short workflow |
 | [openclaw-easy/ViralMint](https://github.com/openclaw-easy/ViralMint) | Trend scouting, competitor analysis, AI video generation, auto-publishing |
-| [jawwadfirdousi/appstore-screenshots-generator](https://github.com/jawwadfirdousi/appstore-screenshots-generator) | App Store screenshot generator |
-| [chrisvanbuskirk/appshot](https://github.com/chrisvanbuskirk/appshot) | CLI for App Store screenshots |
+
+For app-store screenshots and preview videos, see [iOS/Android app launch assets](#iosandroid-app-launch-assets).
 
 ### iOS/Android app launch assets
 
@@ -283,12 +287,56 @@ Playbook: [trend-to-content engine](playbooks/trend-to-content-engine.md)
 | [plasmicapp/plasmic](https://github.com/plasmicapp/plasmic) | Visual builder for React |
 | [GrapesJS/grapesjs](https://github.com/GrapesJS/grapesjs) | Web page builder framework |
 
+### Productivity and solo-operator tools
+
+Local productivity tools that make one founder faster before any SaaS stack exists.
+
+| Project | Use | Why solo founders care |
+| --- | --- | --- |
+| [p0deje/Maccy](https://github.com/p0deje/Maccy) | Lightweight macOS clipboard manager | Reuse prompts, snippets, links, launch copy |
+| [rxhanson/Rectangle](https://github.com/rxhanson/Rectangle) | macOS window management | Faster coding/research/demo layout |
+| [espanso/espanso](https://github.com/espanso/espanso) | Cross-platform text expander | Reusable support replies, prompts, snippets |
+| [ActivityWatch/activitywatch](https://github.com/ActivityWatch/activitywatch) | Privacy-first automated time tracker | Know where founder time leaks |
+| [jordanbaird/Ice](https://github.com/jordanbaird/Ice) | macOS menu bar manager | Less visual noise while building |
+| [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | Open-source Notion alternative | Product docs, CRM-lite, launch planning |
+| [logseq/logseq](https://github.com/logseq/logseq) | Local-first knowledge management | Research notes and founder memory |
+| [laurent22/joplin](https://github.com/laurent22/joplin) | Privacy-focused notes with sync | Cross-device notes and docs |
+| [localsend/localsend](https://github.com/localsend/localsend) | Local cross-platform file sharing | Move screenshots/videos/assets quickly |
+| [syncthing/syncthing](https://github.com/syncthing/syncthing) | Continuous file sync | Private sync for assets and notes |
+| [bitwarden/clients](https://github.com/bitwarden/clients) | Password manager clients and CLI | Secrets hygiene for founder ops |
+| [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) | Smarter `cd` command | Faster terminal navigation |
+
 ### Automation and AI-agent operations
 
 | Project | Use |
 | --- | --- |
 | [activepieces/activepieces](https://github.com/activepieces/activepieces) | Workflow automation, MCP, AI agents |
 | [n8n-io/n8n](https://github.com/n8n-io/n8n) | Workflow automation with native AI features |
+
+## Opinionated default stack
+
+If a solo founder wants the shortest path, start here. These are active OSS/source-available defaults with strong solo-founder leverage.
+
+| Job | Default pick | Why this over adjacent options |
+| --- | --- | --- |
+| MVP backend | [Supabase](https://github.com/supabase/supabase) | Broadest full-stack path: Postgres, auth, storage, edge |
+| Tiny MVP backend | [PocketBase](https://github.com/pocketbase/pocketbase) | Smallest setup for quick validation |
+| SaaS starter | [Open SaaS](https://github.com/wasp-lang/open-saas) | Auth, jobs, payments, landing path in one starter |
+| Deploy | [Coolify](https://github.com/coollabsio/coolify) | Strong self-hosted Vercel/Heroku alternative |
+| Product analytics | [PostHog](https://github.com/PostHog/posthog) | Analytics, replay, surveys, flags in one product |
+| Simple web analytics | [Umami](https://github.com/umami-software/umami) | Lightweight and easy to self-host |
+| Email list | [Listmonk](https://github.com/knadh/listmonk) | Fast newsletter/list management |
+| Social distribution | [Postiz](https://github.com/gitroomhq/postiz-app) | Strong multi-platform scheduling plus agent/MCP surface |
+| Trend research | [last30days-skill](https://github.com/mvanhorn/last30days-skill) | Best single agent workflow for recent demand research |
+| Reddit research | [rdt-cli](https://github.com/public-clis/rdt-cli) | Terminal-first Reddit discovery |
+| X research | [twitter-cli](https://github.com/public-clis/twitter-cli) | Terminal-first X discovery |
+| Launch video | [Hyperframes](https://github.com/heygen-com/hyperframes) | Agent-friendly HTML-to-video workflow |
+| Product demo | [OpenScreen](https://github.com/siddharthvaddem/openscreen) | Open Screen Studio-style demos |
+| iOS/macOS agent loop | [XcodeBuildMCP](https://github.com/getsentry/XcodeBuildMCP) | Agent can build, test, run simulator |
+| Coding agent | [Codex](https://github.com/openai/codex) + [Claude Code](https://github.com/anthropics/claude-code) | Strong terminal-agent combo for iteration and review |
+| Docs | [Docusaurus](https://github.com/facebook/docusaurus) | Stable docs/marketing content path |
+| Payments | [Polar](https://github.com/polarsource/polar) | Strong developer-product monetization fit |
+| Productivity | [Maccy](https://github.com/p0deje/Maccy) + [Espanso](https://github.com/espanso/espanso) | Prompt/snippet reuse loop |
 
 ## Agent-readiness score
 

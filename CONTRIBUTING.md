@@ -31,6 +31,7 @@ Add tools that help solo founders build, launch, sell, support, or grow polished
 - support
 - monetization
 - docs
+- productivity
 - automation
 
 ## Quality bar

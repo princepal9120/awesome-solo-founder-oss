@@ -34,6 +34,7 @@ Goal: help one person move from idea to shipped product, distribution, support, 
 - Need content trends? Use [last30days-skill](https://github.com/mvanhorn/last30days-skill), [twitter-cli](https://github.com/public-clis/twitter-cli), [rdt-cli](https://github.com/public-clis/rdt-cli), [ig-cli](https://github.com/princepal9120/ig-cli), and [tkt-cli](https://github.com/princepal9120/tkt-cli).
 - Need distribution? Use [Postiz](https://github.com/gitroomhq/postiz-app), [TryPost](https://github.com/trypostit/trypost), or [Mixpost](https://github.com/inovector/mixpost).
 - Need productivity base layer? Use [Maccy](https://github.com/p0deje/Maccy), [Rectangle](https://github.com/rxhanson/Rectangle), [Espanso](https://github.com/espanso/espanso), and [ActivityWatch](https://github.com/ActivityWatch/activitywatch).
+- Need product marketing? Use [Dub](https://github.com/dubinc/dub), [Papermark](https://github.com/papermark/papermark), [Typebot](https://github.com/baptisteArno/typebot.io), [Ghost](https://github.com/TryGhost/Ghost), and [GrowthBook](https://github.com/growthbook/growthbook).
 - Need monetization? Use [Polar](https://github.com/polarsource/polar), [Lago](https://github.com/getlago/lago), or [Kill Bill](https://github.com/killbill/killbill).
 
 ## Contents
@@ -161,6 +162,19 @@ Avoid:
 | [mautic/mautic](https://github.com/mautic/mautic) | Marketing automation |
 | [knadh/listmonk](https://github.com/knadh/listmonk) | Newsletter and mailing lists |
 | [usesend/useSend](https://github.com/usesend/useSend) | Transactional email platform |
+| [dittofeed/dittofeed](https://github.com/dittofeed/dittofeed) | Customer engagement automation across email, SMS, push, WhatsApp, Slack |
+| [dubinc/dub](https://github.com/dubinc/dub) | Link attribution, short links, campaigns |
+| [papermark/papermark](https://github.com/papermark/papermark) | DocSend alternative for pitch decks, proposals, analytics |
+| [baptisteArno/typebot.io](https://github.com/baptisteArno/typebot.io) | Chatbot/funnel builder for lead capture and onboarding |
+| [TryGhost/Ghost](https://github.com/TryGhost/Ghost) | Blog, newsletter, memberships, subscriptions |
+| [webstudio-is/webstudio](https://github.com/webstudio-is/webstudio) | Open-source Webflow alternative for landing pages |
+| [payloadcms/payload](https://github.com/payloadcms/payload) | Headless CMS for marketing sites and content ops |
+| [growthbook/growthbook](https://github.com/growthbook/growthbook) | Feature flags, A/B tests, conversion experiments |
+| [calcom/cal.diy](https://github.com/calcom/cal.diy) | Scheduling for sales calls, demos, onboarding |
+| [documenso/documenso](https://github.com/documenso/documenso) | Open-source DocuSign alternative for proposals/contracts |
+| [discourse/discourse](https://github.com/discourse/discourse) | Community forum for product-led growth |
+| [forem/forem](https://github.com/forem/forem) | Community publishing platform |
+| [LinkStackOrg/LinkStack](https://github.com/LinkStackOrg/LinkStack) | Link-in-bio/profile page for social campaigns |
 | [nitishkgupta/seotoolsuite](https://github.com/nitishkgupta/seotoolsuite) | SEO tooling |
 | [respectlytics/respectaso](https://github.com/respectlytics/respectaso) | App Store Optimization keyword research |
 
@@ -177,6 +191,10 @@ Tools for repeatable content across TikTok, Instagram/Reels, YouTube/Shorts, X, 
 | [inovector/mixpost](https://github.com/inovector/mixpost) | Self-hosted Buffer-style social media management | Multi-platform social publishing |
 | [zernio-dev/latewiz](https://github.com/zernio-dev/latewiz) | Open-source scheduler powered by Zernio API | Instagram, TikTok, YouTube, X, LinkedIn, Facebook, Pinterest, Threads, Bluesky, Snapchat, Telegram, Discord, Slack |
 | [mutonby/openshorts](https://github.com/mutonby/openshorts) | AI UGC video platform, clip generator, YouTube Studio | TikTok, Instagram Reels, YouTube Shorts |
+| [openclaw-easy/ViralMint](https://github.com/openclaw-easy/ViralMint) | Trend scouting, competitor analysis, AI video generation, auto-publishing | YouTube, TikTok, Douyin |
+| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | One-click AI short-video generation | TikTok, Reels, Shorts |
+| [liyown/ai-trend-publish](https://github.com/liyown/ai-trend-publish) | Trend scraping, AI content generation, scheduled publishing | X/Twitter, web, WeChat |
+| [RafaelGodoyEbert/ViralCutter](https://github.com/RafaelGodoyEbert/ViralCutter) | Cut long YouTube videos into viral short clips | TikTok, Instagram Reels |
 | [gyoridavid/short-video-maker](https://github.com/gyoridavid/short-video-maker) | MCP/REST short-video creation for agents | TikTok, Instagram Reels, YouTube Shorts |
 | [Shaarav4795/ClippedAI](https://github.com/Shaarav4795/ClippedAI) | Open-source OpusClip-style shorts generator | YouTube Shorts, TikTok |
 | [sw-aka/Short-Video-Creator](https://github.com/sw-aka/Short-Video-Creator) | AI captions and background videos | YouTube Shorts, TikTok, Instagram Reels, Snapchat Spotlight |
@@ -254,6 +272,7 @@ Tools for finding what people are already talking about before writing content.
 | [princepal9120/tkt-cli](https://github.com/princepal9120/tkt-cli) | TikTok trend discovery CLI | TikTok |
 | [Linked-API/linkedin-cli](https://github.com/Linked-API/linkedin-cli) | Agent-friendly LinkedIn account/data CLI | LinkedIn |
 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Multi-platform search/read CLI for agents | Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu |
+| [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) | Social platform crawler for posts, videos, comments, and trend research | XiaoHongShu, Douyin, Kuaishou, Bilibili, Weibo, Tieba, Zhihu |
 
 Playbook: [trend-to-content engine](playbooks/trend-to-content-engine.md)
 

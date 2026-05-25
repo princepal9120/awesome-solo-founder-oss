@@ -53,6 +53,84 @@ tools:
     use: Newsletter and mailing lists
     stage: growth
     agent_readiness: 5
+  - name: Dittofeed
+    repo: https://github.com/dittofeed/dittofeed
+    category: marketing
+    use: Customer engagement automation across email, SMS, push, WhatsApp, Slack, and more
+    stage: growth
+    agent_readiness: 5
+  - name: Dub
+    repo: https://github.com/dubinc/dub
+    category: marketing
+    use: Link attribution, short links, QR codes, and campaign tracking
+    stage: growth
+    agent_readiness: 5
+  - name: Papermark
+    repo: https://github.com/papermark/papermark
+    category: marketing
+    use: Open-source DocSend alternative for pitch decks, proposals, and document analytics
+    stage: sales
+    agent_readiness: 5
+  - name: Typebot
+    repo: https://github.com/baptisteArno/typebot.io
+    category: marketing
+    use: Self-hosted chatbot and funnel builder for lead capture and onboarding
+    stage: growth
+    agent_readiness: 5
+  - name: Ghost
+    repo: https://github.com/TryGhost/Ghost
+    category: marketing
+    use: Blog, newsletter, memberships, subscriptions, and owned audience
+    stage: growth
+    agent_readiness: 4
+  - name: Webstudio
+    repo: https://github.com/webstudio-is/webstudio
+    category: marketing
+    use: Open-source Webflow alternative for landing pages and marketing sites
+    stage: launch
+    agent_readiness: 4
+  - name: Payload
+    repo: https://github.com/payloadcms/payload
+    category: marketing
+    use: Headless CMS and full-stack backend for marketing sites and content ops
+    stage: launch
+    agent_readiness: 5
+  - name: GrowthBook
+    repo: https://github.com/growthbook/growthbook
+    category: marketing
+    use: Feature flags, A/B testing, and conversion experiments
+    stage: growth
+    agent_readiness: 5
+  - name: Cal.com
+    repo: https://github.com/calcom/cal.diy
+    category: marketing
+    use: Scheduling infrastructure for sales calls, demos, and onboarding
+    stage: sales
+    agent_readiness: 4
+  - name: Documenso
+    repo: https://github.com/documenso/documenso
+    category: marketing
+    use: Open-source DocuSign alternative for proposals, contracts, and deal paperwork
+    stage: sales
+    agent_readiness: 4
+  - name: Discourse
+    repo: https://github.com/discourse/discourse
+    category: marketing
+    use: Community forum for product-led growth and support
+    stage: growth
+    agent_readiness: 4
+  - name: Forem
+    repo: https://github.com/forem/forem
+    category: marketing
+    use: Community publishing platform for owned audience building
+    stage: growth
+    agent_readiness: 4
+  - name: LinkStack
+    repo: https://github.com/LinkStackOrg/LinkStack
+    category: marketing
+    use: Self-hosted link-in-bio/profile page for social campaigns
+    stage: growth
+    agent_readiness: 3
   - name: Postiz
     repo: https://github.com/gitroomhq/postiz-app
     category: distribution
@@ -83,6 +161,24 @@ tools:
     use: AI UGC video platform, clip generator, and YouTube Studio for TikTok, Instagram Reels, and YouTube Shorts
     stage: growth
     agent_readiness: 4
+  - name: MoneyPrinterTurbo
+    repo: https://github.com/harry0703/MoneyPrinterTurbo
+    category: content
+    use: One-click AI short-video generation
+    stage: growth
+    agent_readiness: 4
+  - name: ai-trend-publish
+    repo: https://github.com/liyown/ai-trend-publish
+    category: content
+    use: Multi-source trend scraping, AI content generation, and scheduled publishing
+    stage: growth
+    agent_readiness: 4
+  - name: ViralCutter
+    repo: https://github.com/RafaelGodoyEbert/ViralCutter
+    category: content
+    use: Cut long YouTube videos into viral short clips
+    stage: growth
+    agent_readiness: 3
   - name: short-video-maker
     repo: https://github.com/gyoridavid/short-video-maker
     category: content
@@ -401,6 +497,12 @@ tools:
     use: Multi-platform search and read CLI for agents across Twitter, Reddit, YouTube, GitHub, Bilibili, and XiaoHongShu
     stage: validation
     agent_readiness: 5
+  - name: MediaCrawler
+    repo: https://github.com/NanmiCoder/MediaCrawler
+    category: trend
+    use: Social platform crawler for posts, videos, comments, and trend research
+    stage: validation
+    agent_readiness: 4
   - name: Twenty
     repo: https://github.com/twentyhq/twenty
     category: sales

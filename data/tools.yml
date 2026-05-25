@@ -203,6 +203,78 @@ tools:
     use: Programmatic video generation with React for platform-neutral marketing assets
     stage: growth
     agent_readiness: 5
+  - name: Vex
+    repo: https://github.com/AKMessi/vex
+    category: video-editing
+    use: Terminal AI video editing agent with FFmpeg, Whisper, and tool calls
+    stage: growth
+    agent_readiness: 5
+  - name: VibeFrame
+    repo: https://github.com/vericontext/vibeframe
+    category: video-editing
+    use: CLI-first, MCP-ready AI-native video editor
+    stage: growth
+    agent_readiness: 5
+  - name: OpenMontage
+    repo: https://github.com/calesthio/OpenMontage
+    category: video-editing
+    use: Agentic video production system with pipelines, tools, and skills
+    stage: growth
+    agent_readiness: 5
+  - name: OpenReelio
+    repo: https://github.com/openreelio/openreelio
+    category: video-editing
+    use: Prompt-driven AI video editor for Shorts and long-form
+    stage: growth
+    agent_readiness: 4
+  - name: auto-editor
+    repo: https://github.com/WyattBlue/auto-editor
+    category: video-editing
+    use: CLI editor that automatically cuts silence and dead space from raw footage
+    stage: growth
+    agent_readiness: 5
+  - name: LosslessCut
+    repo: https://github.com/mifi/lossless-cut
+    category: video-editing
+    use: Lossless video/audio trimming and splitting for rough cuts
+    stage: growth
+    agent_readiness: 4
+  - name: AI Video Editor
+    repo: https://github.com/debarch777/AI-Video-Editor
+    category: video-editing
+    use: LLM and transcript-driven raw talking-head clip editor
+    stage: growth
+    agent_readiness: 4
+  - name: OpenTimelineIO
+    repo: https://github.com/AcademySoftwareFoundation/OpenTimelineIO
+    category: video-editing
+    use: Open timeline interchange API for agent-readable edit decisions
+    stage: growth
+    agent_readiness: 5
+  - name: MoviePy
+    repo: https://github.com/Zulko/moviepy
+    category: video-editing
+    use: Python video editing library for scripted and agent-created edits
+    stage: growth
+    agent_readiness: 5
+  - name: MLT
+    repo: https://github.com/mltframework/mlt
+    category: video-editing
+    use: Multimedia framework for programmatic timeline rendering
+    stage: growth
+    agent_readiness: 4
+  - name: Kdenlive
+    repo: https://github.com/KDE/kdenlive
+    category: video-editing
+    use: Full open-source NLE for manual finishing after agent rough cuts
+    stage: growth
+    agent_readiness: 3
+  - name: Shotcut
+    repo: https://github.com/mltframework/shotcut
+    category: video-editing
+    use: Cross-platform open-source video editor for manual polish and export
+    stage: growth
+    agent_readiness: 3
   - name: Hyperframes
     repo: https://github.com/heygen-com/hyperframes
     category: launch

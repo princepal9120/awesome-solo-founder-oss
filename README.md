@@ -49,6 +49,7 @@ Goal: help one person move from idea to shipped product, distribution, support, 
   - [Analytics and product learning](#analytics-and-product-learning)
   - [Marketing and distribution](#marketing-and-distribution)
   - [UGC and content engine](#ugc-and-content-engine)
+  - [Agentic raw-video editing](#agentic-raw-video-editing)
   - [Product launch assets](#product-launch-assets)
   - [iOS/Android app launch assets](#iosandroid-app-launch-assets)
   - [AI coding agents and MCP](#ai-coding-agents-and-mcp)
@@ -113,15 +114,16 @@ Avoid:
 4. Analytics and feedback
 5. Marketing and distribution
 6. UGC and content engine
-7. Product launch assets
-8. iOS/Android app launch assets
-9. AI coding agents and MCP
-10. Trend discovery
-11. Sales, CRM, support
-12. Billing and monetization
-13. Docs, polish, trust
-14. Productivity and solo-operator tools
-15. Automation and AI-agent operations
+7. Agentic raw-video editing
+8. Product launch assets
+9. iOS/Android app launch assets
+10. AI coding agents and MCP
+11. Trend discovery
+12. Sales, CRM, support
+13. Billing and monetization
+14. Docs, polish, trust
+15. Productivity and solo-operator tools
+16. Automation and AI-agent operations
 
 ## Core stack
 
@@ -199,6 +201,25 @@ Tools for repeatable content across TikTok, Instagram/Reels, YouTube/Shorts, X, 
 | [Shaarav4795/ClippedAI](https://github.com/Shaarav4795/ClippedAI) | Open-source OpusClip-style shorts generator | YouTube Shorts, TikTok |
 | [sw-aka/Short-Video-Creator](https://github.com/sw-aka/Short-Video-Creator) | AI captions and background videos | YouTube Shorts, TikTok, Instagram Reels, Snapchat Spotlight |
 | [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | Programmatic video generation with React | Platform-neutral video assets |
+
+### Agentic raw-video editing
+
+Tools that can edit or transform existing/raw footage, ideally through CLI, MCP, scripts, or inspectable timelines.
+
+| Project | Use | Best for |
+| --- | --- | --- |
+| [AKMessi/vex](https://github.com/AKMessi/vex) | Terminal AI video editing agent with FFmpeg, Whisper, and tool calls | Natural-language edits on raw footage |
+| [vericontext/vibeframe](https://github.com/vericontext/vibeframe) | CLI-first, MCP-ready AI-native video editor | Agent-driven video workflows |
+| [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | Agentic video production system with pipelines, tools, and skills | Full production orchestration |
+| [openreelio/openreelio](https://github.com/openreelio/openreelio) | Prompt-driven AI video editor for Shorts and long-form | AI-assisted timeline editing |
+| [WyattBlue/auto-editor](https://github.com/WyattBlue/auto-editor) | CLI editor that automatically cuts silence/dead space | Fast cleanup of raw talking-head footage |
+| [mifi/lossless-cut](https://github.com/mifi/lossless-cut) | Lossless video/audio trimming and splitting | Rough cuts without re-encoding |
+| [debarch777/AI-Video-Editor](https://github.com/debarch777/AI-Video-Editor) | LLM + transcript-driven raw talking-head clip editor | Captioned social clips from raw video |
+| [AcademySoftwareFoundation/OpenTimelineIO](https://github.com/AcademySoftwareFoundation/OpenTimelineIO) | Timeline interchange API | Agent-readable edit decisions |
+| [Zulko/moviepy](https://github.com/Zulko/moviepy) | Python video editing library | Scripted/agent-created edits |
+| [mltframework/mlt](https://github.com/mltframework/mlt) | Multimedia framework behind NLEs | Programmatic timeline rendering |
+| [KDE/kdenlive](https://github.com/KDE/kdenlive) | Full open-source NLE | Manual finishing after agent rough cut |
+| [mltframework/shotcut](https://github.com/mltframework/shotcut) | Cross-platform open-source video editor | Manual polish and export |
 
 ### Product launch assets
 

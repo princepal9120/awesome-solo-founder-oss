@@ -20,6 +20,7 @@ Add tools that help solo founders build, launch, sell, support, or grow polished
 - feedback
 - marketing
 - content
+- video-editing
 - distribution
 - launch
 - mobile-launch

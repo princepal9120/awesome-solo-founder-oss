@@ -19,6 +19,7 @@ Add tools that help solo founders build, launch, sell, support, or grow polished
 - analytics
 - feedback
 - marketing
+- content
 - distribution
 - sales
 - support
@@ -43,4 +44,3 @@ Avoid:
 - generic advice
 - startup-credit lists
 - tools useful only for large teams
-

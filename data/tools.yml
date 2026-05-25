@@ -56,9 +56,57 @@ tools:
   - name: Postiz
     repo: https://github.com/gitroomhq/postiz-app
     category: distribution
-    use: Social media scheduling
+    use: Social scheduling, AI content ops, MCP/API surface for TikTok, Instagram, YouTube, X, LinkedIn, Reddit, and more
+    stage: growth
+    agent_readiness: 5
+  - name: TryPost
+    repo: https://github.com/trypostit/trypost
+    category: content
+    use: Social media scheduling and content calendar for Instagram, Facebook, LinkedIn, X, TikTok, YouTube, Pinterest, Threads, Bluesky, and Mastodon
     stage: growth
     agent_readiness: 4
+  - name: Mixpost
+    repo: https://github.com/inovector/mixpost
+    category: content
+    use: Self-hosted Buffer-style social media management
+    stage: growth
+    agent_readiness: 4
+  - name: LateWiz
+    repo: https://github.com/zernio-dev/latewiz
+    category: content
+    use: Open-source social scheduler powered by Zernio API for Instagram, TikTok, YouTube, X, LinkedIn, Facebook, Pinterest, Threads, Bluesky, Snapchat, Telegram, Discord, and Slack
+    stage: growth
+    agent_readiness: 4
+  - name: OpenShorts
+    repo: https://github.com/mutonby/openshorts
+    category: content
+    use: AI UGC video platform, clip generator, and YouTube Studio for TikTok, Instagram Reels, and YouTube Shorts
+    stage: growth
+    agent_readiness: 4
+  - name: short-video-maker
+    repo: https://github.com/gyoridavid/short-video-maker
+    category: content
+    use: MCP and REST short-form video generation for TikTok, Instagram Reels, and YouTube Shorts
+    stage: growth
+    agent_readiness: 5
+  - name: ClippedAI
+    repo: https://github.com/Shaarav4795/ClippedAI
+    category: content
+    use: Open-source OpusClip-style AI YouTube Shorts and TikTok generator
+    stage: growth
+    agent_readiness: 3
+  - name: Short Video Creator
+    repo: https://github.com/sw-aka/Short-Video-Creator
+    category: content
+    use: AI captions and background videos for YouTube Shorts, TikTok, Instagram Reels, and Snapchat Spotlight
+    stage: growth
+    agent_readiness: 3
+  - name: Remotion
+    repo: https://github.com/remotion-dev/remotion
+    category: content
+    use: Programmatic video generation with React for platform-neutral marketing assets
+    stage: growth
+    agent_readiness: 5
   - name: Twenty
     repo: https://github.com/twentyhq/twenty
     category: sales

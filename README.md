@@ -54,10 +54,11 @@ Avoid:
 3. Ship infrastructure
 4. Analytics and feedback
 5. Marketing and distribution
-6. Sales, CRM, support
-7. Billing and monetization
-8. Docs, polish, trust
-9. Automation and AI-agent operations
+6. UGC and content engine
+7. Sales, CRM, support
+8. Billing and monetization
+9. Docs, polish, trust
+10. Automation and AI-agent operations
 
 ## Core stack
 
@@ -103,6 +104,22 @@ Avoid:
 | [nitishkgupta/seotoolsuite](https://github.com/nitishkgupta/seotoolsuite) | SEO tooling |
 | [respectlytics/respectaso](https://github.com/respectlytics/respectaso) | App Store Optimization keyword research |
 | [jawwadfirdousi/appstore-screenshots-generator](https://github.com/jawwadfirdousi/appstore-screenshots-generator) | App Store screenshots |
+
+### UGC and content engine
+
+Tools for repeatable content across TikTok, Instagram/Reels, YouTube/Shorts, X, LinkedIn, and Reddit.
+
+| Project | Use | Platforms |
+| --- | --- | --- |
+| [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app) | Social scheduling, AI content ops, MCP/API surface | TikTok, Instagram, YouTube, X, LinkedIn, Reddit, Threads, Bluesky, Mastodon, Pinterest, Discord, Slack |
+| [trypostit/trypost](https://github.com/trypostit/trypost) | Social scheduling and content calendar | Instagram, Facebook, LinkedIn, X, TikTok, YouTube, Pinterest, Threads, Bluesky, Mastodon |
+| [inovector/mixpost](https://github.com/inovector/mixpost) | Self-hosted Buffer-style social media management | Multi-platform social publishing |
+| [zernio-dev/latewiz](https://github.com/zernio-dev/latewiz) | Open-source scheduler powered by Zernio API | Instagram, TikTok, YouTube, X, LinkedIn, Facebook, Pinterest, Threads, Bluesky, Snapchat, Telegram, Discord, Slack |
+| [mutonby/openshorts](https://github.com/mutonby/openshorts) | AI UGC video platform, clip generator, YouTube Studio | TikTok, Instagram Reels, YouTube Shorts |
+| [gyoridavid/short-video-maker](https://github.com/gyoridavid/short-video-maker) | MCP/REST short-video creation for agents | TikTok, Instagram Reels, YouTube Shorts |
+| [Shaarav4795/ClippedAI](https://github.com/Shaarav4795/ClippedAI) | Open-source OpusClip-style shorts generator | YouTube Shorts, TikTok |
+| [sw-aka/Short-Video-Creator](https://github.com/sw-aka/Short-Video-Creator) | AI captions and background videos | YouTube Shorts, TikTok, Instagram Reels, Snapchat Spotlight |
+| [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | Programmatic video generation with React | Platform-neutral video assets |
 
 ### Sales, CRM, and support
 
@@ -170,4 +187,3 @@ PRs welcome. Add tools with:
 - best founder stage
 - agent-readiness score
 - reason it helps solo founders
-

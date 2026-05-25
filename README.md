@@ -1,10 +1,61 @@
-# Awesome Solo Founder OSS
+<p align="center">
+  <img src="assets/logo.svg" alt="Awesome Solo Founder OSS logo" width="760">
+</p>
+
+<h1 align="center">Awesome Solo Founder OSS</h1>
+
+<p align="center">
+  <strong>Open-source stack for solo founders to build, launch, distribute, monetize, support, and automate polished products.</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/sindresorhus/awesome">
+    <img alt="Awesome" src="https://awesome.re/badge.svg">
+  </a>
+  <a href="https://github.com/princepal9120/awesome-solo-founder-oss/stargazers">
+    <img alt="GitHub stars" src="https://img.shields.io/github/stars/princepal9120/awesome-solo-founder-oss?style=social">
+  </a>
+  <a href="CONTRIBUTING.md">
+    <img alt="Contributions welcome" src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg">
+  </a>
+</p>
 
 Open-source and source-available tools for solo founders building polished internet businesses.
 
 Goal: help one person move from idea to shipped product, distribution, support, and revenue without buying a giant SaaS stack.
 
 > Not a guarantee of revenue. This repo maps practical tools and workflows that can help a solo founder reach serious revenue targets.
+
+## Quick start
+
+- Need MVP fast? Start with [Open SaaS](https://github.com/wasp-lang/open-saas), [Supabase](https://github.com/supabase/supabase), or [PocketBase](https://github.com/pocketbase/pocketbase).
+- Need launch video? Use [Hyperframes](https://github.com/heygen-com/hyperframes) or [OpenScreen](https://github.com/siddharthvaddem/openscreen).
+- Need content trends? Use [last30days-skill](https://github.com/mvanhorn/last30days-skill), [twitter-cli](https://github.com/public-clis/twitter-cli), [rdt-cli](https://github.com/public-clis/rdt-cli), [ig-cli](https://github.com/princepal9120/ig-cli), and [tkt-cli](https://github.com/princepal9120/tkt-cli).
+- Need distribution? Use [Postiz](https://github.com/gitroomhq/postiz-app), [TryPost](https://github.com/trypostit/trypost), or [Mixpost](https://github.com/inovector/mixpost).
+- Need monetization? Use [Polar](https://github.com/polarsource/polar), [Lago](https://github.com/getlago/lago), or [Kill Bill](https://github.com/killbill/killbill).
+
+## Contents
+
+- [Why this list exists](#why-this-list-exists)
+- [Similar repos researched](#similar-repos-researched)
+- [Selection rules](#selection-rules)
+- [Founder lifecycle map](#founder-lifecycle-map)
+- [Core stack](#core-stack)
+  - [Build MVP](#build-mvp)
+  - [Deploy and operate](#deploy-and-operate)
+  - [Analytics and product learning](#analytics-and-product-learning)
+  - [Marketing and distribution](#marketing-and-distribution)
+  - [UGC and content engine](#ugc-and-content-engine)
+  - [Product launch assets](#product-launch-assets)
+  - [iOS/Android app launch assets](#iosandroid-app-launch-assets)
+  - [Trend discovery](#trend-discovery)
+  - [Sales, CRM, and support](#sales-crm-and-support)
+  - [Billing and monetization](#billing-and-monetization)
+  - [Docs, website, and polish](#docs-website-and-polish)
+  - [Automation and AI-agent operations](#automation-and-ai-agent-operations)
+- [Agent-readiness score](#agent-readiness-score)
+- [Suggested folder expansion](#suggested-folder-expansion)
+- [Contributing](#contributing)
 
 ## Why this list exists
 
@@ -55,10 +106,13 @@ Avoid:
 4. Analytics and feedback
 5. Marketing and distribution
 6. UGC and content engine
-7. Sales, CRM, support
-8. Billing and monetization
-9. Docs, polish, trust
-10. Automation and AI-agent operations
+7. Product launch assets
+8. iOS/Android app launch assets
+9. Trend discovery
+10. Sales, CRM, support
+11. Billing and monetization
+12. Docs, polish, trust
+13. Automation and AI-agent operations
 
 ## Core stack
 
@@ -120,6 +174,54 @@ Tools for repeatable content across TikTok, Instagram/Reels, YouTube/Shorts, X, 
 | [Shaarav4795/ClippedAI](https://github.com/Shaarav4795/ClippedAI) | Open-source OpusClip-style shorts generator | YouTube Shorts, TikTok |
 | [sw-aka/Short-Video-Creator](https://github.com/sw-aka/Short-Video-Creator) | AI captions and background videos | YouTube Shorts, TikTok, Instagram Reels, Snapchat Spotlight |
 | [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | Programmatic video generation with React | Platform-neutral video assets |
+
+### Product launch assets
+
+Tools for launch videos, product demos, screenshots, and polished campaign assets.
+
+| Project | Use |
+| --- | --- |
+| [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | Agent-friendly HTML-to-video launch videos |
+| [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen) | Free product demo videos, Screen Studio alternative |
+| [heygen-com/hyperframes-launch-video](https://github.com/heygen-com/hyperframes-launch-video) | Hyperframes launch-video example |
+| [heygen-com/hyperframes-launches](https://github.com/heygen-com/hyperframes-launches) | Open-source production launch-video compositions |
+| [coleam00/hyperframes-ai-video-generation](https://github.com/coleam00/hyperframes-ai-video-generation) | URL-to-polished AI-voiced HyperFrames short workflow |
+| [openclaw-easy/ViralMint](https://github.com/openclaw-easy/ViralMint) | Trend scouting, competitor analysis, AI video generation, auto-publishing |
+| [jawwadfirdousi/appstore-screenshots-generator](https://github.com/jawwadfirdousi/appstore-screenshots-generator) | App Store screenshot generator |
+| [chrisvanbuskirk/appshot](https://github.com/chrisvanbuskirk/appshot) | CLI for App Store screenshots |
+
+### iOS/Android app launch assets
+
+Tools for App Store / Google Play launch videos, screenshots, previews, and release automation.
+
+| Project | Use | App launch job |
+| --- | --- | --- |
+| [mdo91/video-preview-appstore](https://github.com/mdo91/video-preview-appstore) | Convert screen recordings into App Store preview-compatible MP4s | iOS App Preview video |
+| [eralpozcan/storeshots](https://github.com/eralpozcan/storeshots) | App Store and Google Play screenshot generator with device mockups | iOS/Android store screenshots |
+| [jawwadfirdousi/appstore-screenshots-generator](https://github.com/jawwadfirdousi/appstore-screenshots-generator) | Browser-based App Store screenshot generator | iOS screenshots |
+| [chrisvanbuskirk/appshot](https://github.com/chrisvanbuskirk/appshot) | CLI for App Store screenshots | iOS screenshot automation |
+| [fastlane/fastlane](https://github.com/fastlane/fastlane) | Automate beta, deploy, screenshots, metadata, and release flow | iOS/Android release ops |
+| [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen) | Product demo screen recordings without watermark | Mobile app demo video |
+| [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | HTML-to-video launch explainers | App launch explainer |
+| [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | Programmatic videos with React | Store/social promo videos |
+
+### Trend discovery
+
+Tools for finding what people are already talking about before writing content.
+
+| Project | Use | Sources |
+| --- | --- | --- |
+| [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | Agent skill for recent-topic research and synthesis | Reddit, X, YouTube, Hacker News, Polymarket, web |
+| [levineam/lastXdays-skill](https://github.com/levineam/lastXdays-skill) | Configurable time-range version of last30days research | Same pattern, variable date window |
+| [public-clis/public-clis](https://github.com/public-clis/public-clis) | CLI catalog for public web services | Multiple platforms |
+| [public-clis/twitter-cli](https://github.com/public-clis/twitter-cli) | Terminal-first Twitter/X feed, bookmarks, timeline research | X/Twitter |
+| [public-clis/rdt-cli](https://github.com/public-clis/rdt-cli) | Terminal-first Reddit feed, post, search, upvote, save workflow | Reddit |
+| [princepal9120/ig-cli](https://github.com/princepal9120/ig-cli) | Instagram CLI for trend discovery workflow | Instagram |
+| [princepal9120/tkt-cli](https://github.com/princepal9120/tkt-cli) | TikTok trend discovery CLI | TikTok |
+| [Linked-API/linkedin-cli](https://github.com/Linked-API/linkedin-cli) | Agent-friendly LinkedIn account/data CLI | LinkedIn |
+| [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Multi-platform search/read CLI for agents | Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu |
+
+Playbook: [trend-to-content engine](playbooks/trend-to-content-engine.md)
 
 ### Sales, CRM, and support
 

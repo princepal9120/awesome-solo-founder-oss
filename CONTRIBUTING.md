@@ -21,6 +21,9 @@ Add tools that help solo founders build, launch, sell, support, or grow polished
 - marketing
 - content
 - distribution
+- launch
+- mobile-launch
+- trend
 - sales
 - support
 - monetization

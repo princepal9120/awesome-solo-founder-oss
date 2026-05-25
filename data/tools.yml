@@ -107,6 +107,120 @@ tools:
     use: Programmatic video generation with React for platform-neutral marketing assets
     stage: growth
     agent_readiness: 5
+  - name: Hyperframes
+    repo: https://github.com/heygen-com/hyperframes
+    category: launch
+    use: Agent-friendly HTML-to-video launch videos
+    stage: launch
+    agent_readiness: 5
+  - name: OpenScreen
+    repo: https://github.com/siddharthvaddem/openscreen
+    category: launch
+    use: Product demo videos, Screen Studio alternative
+    stage: launch
+    agent_readiness: 4
+  - name: Hyperframes Launch Video
+    repo: https://github.com/heygen-com/hyperframes-launch-video
+    category: launch
+    use: Example launch-video workflow for Hyperframes
+    stage: launch
+    agent_readiness: 4
+  - name: Hyperframes Launches
+    repo: https://github.com/heygen-com/hyperframes-launches
+    category: launch
+    use: Open-source production launch-video compositions
+    stage: launch
+    agent_readiness: 4
+  - name: Hyperframes AI Video Generation
+    repo: https://github.com/coleam00/hyperframes-ai-video-generation
+    category: launch
+    use: URL-to-polished AI-voiced HyperFrames short workflow
+    stage: launch
+    agent_readiness: 4
+  - name: ViralMint
+    repo: https://github.com/openclaw-easy/ViralMint
+    category: launch
+    use: Trend scouting, competitor analysis, AI video generation, and auto-publishing
+    stage: growth
+    agent_readiness: 4
+  - name: Appshot
+    repo: https://github.com/chrisvanbuskirk/appshot
+    category: mobile-launch
+    use: CLI for App Store screenshots
+    stage: launch
+    agent_readiness: 4
+  - name: Video Preview App Store
+    repo: https://github.com/mdo91/video-preview-appstore
+    category: mobile-launch
+    use: Convert screen recordings into App Store preview-compatible MP4s
+    stage: launch
+    agent_readiness: 4
+  - name: Storeshots
+    repo: https://github.com/eralpozcan/storeshots
+    category: mobile-launch
+    use: App Store and Google Play screenshot generator with device mockups
+    stage: launch
+    agent_readiness: 4
+  - name: fastlane
+    repo: https://github.com/fastlane/fastlane
+    category: mobile-launch
+    use: Automate iOS and Android beta deploys, screenshots, metadata, and release flow
+    stage: launch
+    agent_readiness: 5
+  - name: last30days-skill
+    repo: https://github.com/mvanhorn/last30days-skill
+    category: trend
+    use: Agent skill for recent-topic research across Reddit, X, YouTube, HN, Polymarket, and web
+    stage: validation
+    agent_readiness: 5
+  - name: lastXdays-skill
+    repo: https://github.com/levineam/lastXdays-skill
+    category: trend
+    use: Configurable time-range trend research skill
+    stage: validation
+    agent_readiness: 5
+  - name: public-clis
+    repo: https://github.com/public-clis/public-clis
+    category: trend
+    use: Catalog of terminal-first public web-service CLIs
+    stage: validation
+    agent_readiness: 5
+  - name: twitter-cli
+    repo: https://github.com/public-clis/twitter-cli
+    category: trend
+    use: X/Twitter feed, bookmarks, and timeline research in terminal
+    stage: validation
+    agent_readiness: 5
+  - name: rdt-cli
+    repo: https://github.com/public-clis/rdt-cli
+    category: trend
+    use: Reddit feed, post, search, upvote, save, and subscribe workflow in terminal
+    stage: validation
+    agent_readiness: 5
+  - name: ig-cli
+    repo: https://github.com/princepal9120/ig-cli
+    category: trend
+    use: Instagram CLI for trend discovery and content research
+    stage: validation
+    agent_readiness: 4
+  - name: tkt-cli
+    repo: https://github.com/princepal9120/tkt-cli
+    category: trend
+    use: TikTok trend discovery CLI for terminal-first content research
+    stage: validation
+    agent_readiness: 5
+  - name: linkedin-cli
+    repo: https://github.com/Linked-API/linkedin-cli
+    category: trend
+    use: Agent-friendly LinkedIn CLI for account control and real-time data retrieval
+    stage: validation
+    agent_readiness: 4
+  - name: Agent-Reach
+    repo: https://github.com/Panniantong/Agent-Reach
+    category: trend
+    use: Multi-platform search and read CLI for agents across Twitter, Reddit, YouTube, GitHub, Bilibili, and XiaoHongShu
+    stage: validation
+    agent_readiness: 5
   - name: Twenty
     repo: https://github.com/twentyhq/twenty
     category: sales

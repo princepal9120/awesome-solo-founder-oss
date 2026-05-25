@@ -108,22 +108,22 @@ Avoid:
 
 ## Founder lifecycle map
 
-1. Idea and validation
-2. Build MVP
-3. Ship infrastructure
-4. Analytics and feedback
-5. Marketing and distribution
-6. UGC and content engine
-7. Agentic raw-video editing
-8. Product launch assets
-9. iOS/Android app launch assets
-10. AI coding agents and MCP
-11. Trend discovery
-12. Sales, CRM, support
-13. Billing and monetization
-14. Docs, polish, trust
-15. Productivity and solo-operator tools
-16. Automation and AI-agent operations
+1. [Idea and validation](#trend-discovery)
+2. [Build MVP](#build-mvp)
+3. [Ship infrastructure](#deploy-and-operate)
+4. [Analytics and feedback](#analytics-and-product-learning)
+5. [Marketing and distribution](#marketing-and-distribution)
+6. [UGC and content engine](#ugc-and-content-engine)
+7. [Agentic raw-video editing](#agentic-raw-video-editing)
+8. [Product launch assets](#product-launch-assets)
+9. [iOS/Android app launch assets](#iosandroid-app-launch-assets)
+10. [AI coding agents and MCP](#ai-coding-agents-and-mcp)
+11. [Trend discovery](#trend-discovery)
+12. [Sales, CRM, support](#sales-crm-and-support)
+13. [Billing and monetization](#billing-and-monetization)
+14. [Docs, polish, trust](#docs-website-and-polish)
+15. [Productivity and solo-operator tools](#productivity-and-solo-operator-tools)
+16. [Automation and AI-agent operations](#automation-and-ai-agent-operations)
 
 ## Core stack
 

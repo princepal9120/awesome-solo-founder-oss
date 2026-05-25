@@ -1,0 +1,115 @@
+tools:
+  - name: Supabase
+    repo: https://github.com/supabase/supabase
+    category: build
+    use: Backend, auth, database, storage
+    stage: mvp
+    agent_readiness: 5
+  - name: Appwrite
+    repo: https://github.com/appwrite/appwrite
+    category: build
+    use: Backend platform
+    stage: mvp
+    agent_readiness: 5
+  - name: PocketBase
+    repo: https://github.com/pocketbase/pocketbase
+    category: build
+    use: Tiny backend for fast MVPs
+    stage: mvp
+    agent_readiness: 5
+  - name: Open SaaS
+    repo: https://github.com/wasp-lang/open-saas
+    category: build
+    use: SaaS starter with auth, jobs, payments
+    stage: mvp
+    agent_readiness: 5
+  - name: Coolify
+    repo: https://github.com/coollabsio/coolify
+    category: deploy
+    use: Self-hosted deployment platform
+    stage: launch
+    agent_readiness: 4
+  - name: PostHog
+    repo: https://github.com/PostHog/posthog
+    category: analytics
+    use: Product analytics, session replay, flags, surveys
+    stage: learn
+    agent_readiness: 5
+  - name: Plausible
+    repo: https://github.com/plausible/analytics
+    category: analytics
+    use: Privacy-friendly web analytics
+    stage: learn
+    agent_readiness: 4
+  - name: Mautic
+    repo: https://github.com/mautic/mautic
+    category: marketing
+    use: Marketing automation
+    stage: growth
+    agent_readiness: 4
+  - name: Listmonk
+    repo: https://github.com/knadh/listmonk
+    category: marketing
+    use: Newsletter and mailing lists
+    stage: growth
+    agent_readiness: 5
+  - name: Postiz
+    repo: https://github.com/gitroomhq/postiz-app
+    category: distribution
+    use: Social media scheduling
+    stage: growth
+    agent_readiness: 4
+  - name: Twenty
+    repo: https://github.com/twentyhq/twenty
+    category: sales
+    use: CRM
+    stage: sales
+    agent_readiness: 4
+  - name: Chatwoot
+    repo: https://github.com/chatwoot/chatwoot
+    category: support
+    use: Support inbox and live chat
+    stage: support
+    agent_readiness: 4
+  - name: Formbricks
+    repo: https://github.com/formbricks/formbricks
+    category: feedback
+    use: Surveys and customer feedback
+    stage: learn
+    agent_readiness: 4
+  - name: Fider
+    repo: https://github.com/getfider/fider
+    category: feedback
+    use: Feature requests and feedback voting
+    stage: learn
+    agent_readiness: 4
+  - name: Polar
+    repo: https://github.com/polarsource/polar
+    category: monetization
+    use: Developer payments and subscriptions
+    stage: revenue
+    agent_readiness: 5
+  - name: Lago
+    repo: https://github.com/getlago/lago
+    category: monetization
+    use: Usage-based billing
+    stage: revenue
+    agent_readiness: 5
+  - name: Docusaurus
+    repo: https://github.com/facebook/docusaurus
+    category: docs
+    use: Documentation website
+    stage: polish
+    agent_readiness: 5
+  - name: Activepieces
+    repo: https://github.com/activepieces/activepieces
+    category: automation
+    use: Workflow automation, MCP, AI agents
+    stage: operations
+    agent_readiness: 5
+  - name: n8n
+    repo: https://github.com/n8n-io/n8n
+    category: automation
+    use: Workflow automation with native AI features
+    stage: operations
+    agent_readiness: 5

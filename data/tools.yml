@@ -487,3 +487,8 @@ tools:
     repo: https://github.com/ajeetdsouza/zoxide
     category: productivity
     use: Smarter terminal directory jumping
+
+  - name: devrunner
+    repo: https://github.com/princepal9120/devrunner
+    category: productivity
+    use: Rust-powered terminal task runner with zero configuration

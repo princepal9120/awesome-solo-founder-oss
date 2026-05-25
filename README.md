@@ -361,6 +361,7 @@ Local tools for faster solo-operator workflows.
 | [LocalSend](https://github.com/localsend/localsend) | Local cross-platform file sharing |
 | [Syncthing](https://github.com/syncthing/syncthing) | Continuous private file sync |
 | [Zoxide](https://github.com/ajeetdsouza/zoxide) | Smarter terminal directory jumping |
+| [devrunner](https://github.com/princepal9120/devrunner) | Rust-powered terminal task runner with zero configuration |
 
 ## Data
 

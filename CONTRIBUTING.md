@@ -23,6 +23,9 @@ Add tools that help solo founders build, launch, sell, support, or grow polished
 - distribution
 - launch
 - mobile-launch
+- ai-agent
+- agent-skill
+- mcp
 - trend
 - sales
 - support

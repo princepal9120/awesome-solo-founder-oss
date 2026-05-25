@@ -30,6 +30,7 @@ Goal: help one person move from idea to shipped product, distribution, support, 
 
 - Need MVP fast? Start with [Open SaaS](https://github.com/wasp-lang/open-saas), [Supabase](https://github.com/supabase/supabase), or [PocketBase](https://github.com/pocketbase/pocketbase).
 - Need launch video? Use [Hyperframes](https://github.com/heygen-com/hyperframes) or [OpenScreen](https://github.com/siddharthvaddem/openscreen).
+- Need faster building with agents? Use [Codex](https://github.com/openai/codex), [Claude Code](https://github.com/anthropics/claude-code), [XcodeBuildMCP](https://github.com/getsentry/XcodeBuildMCP), and [Playwright MCP](https://github.com/microsoft/playwright-mcp).
 - Need content trends? Use [last30days-skill](https://github.com/mvanhorn/last30days-skill), [twitter-cli](https://github.com/public-clis/twitter-cli), [rdt-cli](https://github.com/public-clis/rdt-cli), [ig-cli](https://github.com/princepal9120/ig-cli), and [tkt-cli](https://github.com/princepal9120/tkt-cli).
 - Need distribution? Use [Postiz](https://github.com/gitroomhq/postiz-app), [TryPost](https://github.com/trypostit/trypost), or [Mixpost](https://github.com/inovector/mixpost).
 - Need monetization? Use [Polar](https://github.com/polarsource/polar), [Lago](https://github.com/getlago/lago), or [Kill Bill](https://github.com/killbill/killbill).
@@ -48,6 +49,7 @@ Goal: help one person move from idea to shipped product, distribution, support, 
   - [UGC and content engine](#ugc-and-content-engine)
   - [Product launch assets](#product-launch-assets)
   - [iOS/Android app launch assets](#iosandroid-app-launch-assets)
+  - [AI coding agents and MCP](#ai-coding-agents-and-mcp)
   - [Trend discovery](#trend-discovery)
   - [Sales, CRM, and support](#sales-crm-and-support)
   - [Billing and monetization](#billing-and-monetization)
@@ -108,11 +110,12 @@ Avoid:
 6. UGC and content engine
 7. Product launch assets
 8. iOS/Android app launch assets
-9. Trend discovery
-10. Sales, CRM, support
-11. Billing and monetization
-12. Docs, polish, trust
-13. Automation and AI-agent operations
+9. AI coding agents and MCP
+10. Trend discovery
+11. Sales, CRM, support
+12. Billing and monetization
+13. Docs, polish, trust
+14. Automation and AI-agent operations
 
 ## Core stack
 
@@ -204,6 +207,33 @@ Tools for App Store / Google Play launch videos, screenshots, previews, and rele
 | [siddharthvaddem/openscreen](https://github.com/siddharthvaddem/openscreen) | Product demo screen recordings without watermark | Mobile app demo video |
 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | HTML-to-video launch explainers | App launch explainer |
 | [remotion-dev/remotion](https://github.com/remotion-dev/remotion) | Programmatic videos with React | Store/social promo videos |
+
+### AI coding agents and MCP
+
+Tools that help solo founders build faster with coding agents, product-specific skills, and MCP servers.
+
+| Project | Use | Best for |
+| --- | --- | --- |
+| [openai/codex](https://github.com/openai/codex) | Terminal coding agent | Building, refactoring, tests, docs |
+| [anthropics/claude-code](https://github.com/anthropics/claude-code) | Agentic coding tool in terminal | Codebase work, git workflows, product iteration |
+| [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) | Open-source Gemini agent in terminal | Large-context coding and research |
+| [anomalyco/opencode](https://github.com/anomalyco/opencode) | Open-source coding agent | Multi-model terminal development |
+| [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | Open-source terminal coding agent | Local/remote coding workflows |
+| [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | Curated Claude Code skills, hooks, commands, plugins | Finding agent skills faster |
+| [trailofbits/skills](https://github.com/trailofbits/skills) | Claude Code security audit skills | Security review before launch |
+| [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) | Persistent markdown planning skill | Agent project planning |
+| [nowork-studio/NotFair](https://github.com/nowork-studio/NotFair) | Claude Code skills for SEO, GEO, Google Ads, Meta Ads | Growth and marketing ops |
+| [getsentry/XcodeBuildMCP](https://github.com/getsentry/XcodeBuildMCP) | MCP server/CLI for iOS and macOS builds | iOS/macOS build, test, simulator automation |
+| [getsentry/XcodeBuildMCP-iOS-Template](https://github.com/getsentry/XcodeBuildMCP-iOS-Template) | Scaffold template for iOS app projects | Faster iOS app starts |
+| [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) | Browser automation MCP server | QA, screenshots, web testing |
+| [github/github-mcp-server](https://github.com/github/github-mcp-server) | Official GitHub MCP server | Issues, PRs, repos, code workflow |
+| [upstash/context7](https://github.com/upstash/context7) | Up-to-date docs for LLMs and AI code editors | Fresh framework/API docs |
+| [GLips/Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP) | Figma layout context for coding agents | Design-to-code |
+| [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | MCP server collection | Agent capability discovery |
+| [modelcontextprotocol/registry](https://github.com/modelcontextprotocol/registry) | Community MCP registry service | Finding MCP servers |
+| [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Curated MCP server list | Picking agent integrations |
+
+Playbook: [agent-assisted product build sprint](playbooks/agent-assisted-product-build-sprint.md)
 
 ### Trend discovery
 

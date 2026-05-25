@@ -167,6 +167,114 @@ tools:
     use: Automate iOS and Android beta deploys, screenshots, metadata, and release flow
     stage: launch
     agent_readiness: 5
+  - name: Codex
+    repo: https://github.com/openai/codex
+    category: ai-agent
+    use: Terminal coding agent for building, refactoring, tests, and docs
+    stage: build
+    agent_readiness: 5
+  - name: Claude Code
+    repo: https://github.com/anthropics/claude-code
+    category: ai-agent
+    use: Agentic coding tool in terminal for codebase work and git workflows
+    stage: build
+    agent_readiness: 5
+  - name: Gemini CLI
+    repo: https://github.com/google-gemini/gemini-cli
+    category: ai-agent
+    use: Open-source Gemini coding and research agent in terminal
+    stage: build
+    agent_readiness: 5
+  - name: OpenCode
+    repo: https://github.com/anomalyco/opencode
+    category: ai-agent
+    use: Open-source multi-model coding agent
+    stage: build
+    agent_readiness: 5
+  - name: Qwen Code
+    repo: https://github.com/QwenLM/qwen-code
+    category: ai-agent
+    use: Open-source terminal coding agent
+    stage: build
+    agent_readiness: 5
+  - name: awesome-claude-code
+    repo: https://github.com/hesreallyhim/awesome-claude-code
+    category: agent-skill
+    use: Curated Claude Code skills, hooks, slash commands, plugins, and orchestrators
+    stage: build
+    agent_readiness: 5
+  - name: Trail of Bits skills
+    repo: https://github.com/trailofbits/skills
+    category: agent-skill
+    use: Claude Code security research, vulnerability detection, and audit skills
+    stage: launch
+    agent_readiness: 5
+  - name: planning-with-files
+    repo: https://github.com/OthmanAdi/planning-with-files
+    category: agent-skill
+    use: Persistent markdown planning skill for agent project planning
+    stage: build
+    agent_readiness: 5
+  - name: NotFair
+    repo: https://github.com/nowork-studio/NotFair
+    category: agent-skill
+    use: Claude Code skills for SEO, GEO, Google Ads, and Meta Ads
+    stage: growth
+    agent_readiness: 5
+  - name: XcodeBuildMCP
+    repo: https://github.com/getsentry/XcodeBuildMCP
+    category: mcp
+    use: MCP server and CLI for iOS/macOS build, test, simulator, and project automation
+    stage: build
+    agent_readiness: 5
+  - name: XcodeBuildMCP iOS Template
+    repo: https://github.com/getsentry/XcodeBuildMCP-iOS-Template
+    category: mcp
+    use: Scaffold template for iOS app projects
+    stage: build
+    agent_readiness: 5
+  - name: Playwright MCP
+    repo: https://github.com/microsoft/playwright-mcp
+    category: mcp
+    use: Browser automation MCP server for QA, screenshots, and web testing
+    stage: launch
+    agent_readiness: 5
+  - name: GitHub MCP Server
+    repo: https://github.com/github/github-mcp-server
+    category: mcp
+    use: Official GitHub MCP server for issues, PRs, repos, and code workflow
+    stage: operations
+    agent_readiness: 5
+  - name: Context7
+    repo: https://github.com/upstash/context7
+    category: mcp
+    use: Up-to-date code documentation for LLMs and AI code editors
+    stage: build
+    agent_readiness: 5
+  - name: Figma Context MCP
+    repo: https://github.com/GLips/Figma-Context-MCP
+    category: mcp
+    use: Figma layout information for AI coding agents
+    stage: polish
+    agent_readiness: 5
+  - name: MCP Servers
+    repo: https://github.com/modelcontextprotocol/servers
+    category: mcp
+    use: Model Context Protocol server collection
+    stage: operations
+    agent_readiness: 5
+  - name: MCP Registry
+    repo: https://github.com/modelcontextprotocol/registry
+    category: mcp
+    use: Community registry service for MCP servers
+    stage: operations
+    agent_readiness: 5
+  - name: awesome-mcp-servers
+    repo: https://github.com/punkpeye/awesome-mcp-servers
+    category: mcp
+    use: Curated list of MCP servers
+    stage: operations
+    agent_readiness: 5
   - name: last30days-skill
     repo: https://github.com/mvanhorn/last30days-skill
     category: trend

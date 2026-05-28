@@ -212,6 +212,7 @@ Use agents to code, test, browse, inspect design, and run product workflows.
 | [UI-TARS Desktop](https://github.com/bytedance/UI-TARS-desktop) | Open-source multimodal desktop agent stack |
 | [CowAgent](https://github.com/zhayujie/CowAgent) | AI assistant and agent harness |
 | [CodeWhale](https://github.com/Hmbown/CodeWhale) | DeepSeek-first agentic coding terminal |
+| [Ivy Tendril](https://github.com/Ivy-Interactive/Ivy-Tendril) | Open-source AI coding orchestrator with plan-based lifecycle, verification gates, and self-improving memory |
 
 Playbook: [agent-assisted product build sprint](playbooks/agent-assisted-product-build-sprint.md)
 

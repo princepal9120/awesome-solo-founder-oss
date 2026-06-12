@@ -209,6 +209,7 @@ Use agents to code, test, browse, inspect design, and run product workflows.
 | [MCP Servers](https://github.com/modelcontextprotocol/servers) | Model Context Protocol server collection |
 | [MCP Registry](https://github.com/modelcontextprotocol/registry) | Community registry for MCP servers |
 | [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Curated MCP server list |
+| [Xquik](https://github.com/Xquik-dev/x-twitter-scraper) | X/Twitter search, monitoring, and social workflow MCP server |
 | [UI-TARS Desktop](https://github.com/bytedance/UI-TARS-desktop) | Open-source multimodal desktop agent stack |
 | [CowAgent](https://github.com/zhayujie/CowAgent) | AI assistant and agent harness |
 | [CodeWhale](https://github.com/Hmbown/CodeWhale) | DeepSeek-first agentic coding terminal |
@@ -281,7 +282,7 @@ Create demand, track campaigns, publish content, and convert leads.
 | [seotoolsuite](https://github.com/nitishkgupta/seotoolsuite) | SEO tooling |
 | [RespectASO](https://github.com/respectlytics/respectaso) | App Store Optimization keyword research |
 
-| [TinyTools](https://github.com/alfredoautomatizaloconia-cloud/tinytools) | OG image generator, SEO meta tag generator, favicon generator, AI background remover, color palette, AI robots.txt generator — all browser-based, no backend |
+| [TinyTools](https://github.com/alfredoautomatizaloconia-cloud/tinytools) | OG image generator, SEO meta tag generator, favicon generator, AI background remover, color palette, AI robots.txt generator - all browser-based, no backend |
 ## Content and video
 
 Create launch demos, shorts, UGC, raw-video edits, and programmatic video assets.

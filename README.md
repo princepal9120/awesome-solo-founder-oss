@@ -275,6 +275,7 @@ Create demand, track campaigns, publish content, and convert leads.
 | [Papermark](https://github.com/papermark/papermark) | DocSend alternative for pitch decks, proposals, document analytics |
 | [Postiz](https://github.com/gitroomhq/postiz-app) | Agentic social media scheduling |
 | [Mixpost](https://github.com/inovector/mixpost) | Self-hosted social media management |
+| [OpenPost](https://github.com/rodrgds/openpost) | Self-hosted social publishing with API, CLI, and MCP access |
 | [TryPost](https://github.com/trypostit/trypost) | Social scheduling and content calendar |
 | [LateWiz](https://github.com/zernio-dev/latewiz) | Multi-platform social scheduler |
 | [LinkStack](https://github.com/LinkStackOrg/LinkStack) | Self-hosted link-in-bio/profile page |

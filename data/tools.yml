@@ -278,6 +278,10 @@ tools:
     repo: https://github.com/inovector/mixpost
     category: marketing
     use: Self-hosted social media management
+  - name: OpenPost
+    repo: https://github.com/rodrgds/openpost
+    category: marketing
+    use: Self-hosted social publishing with API, CLI, and MCP access
   - name: TryPost
     repo: https://github.com/trypostit/trypost
     category: marketing

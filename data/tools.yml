@@ -145,6 +145,10 @@ tools:
     repo: https://github.com/microsoft/playwright-mcp
     category: ai-agent
     use: Browser automation and QA for agents
+  - name: Agent QA
+    repo: https://github.com/vostride/agent-qa
+    category: ai-agent
+    use: Natural-language web and mobile regression testing with CLI, MCP, execution memory, and UI-change adaptation
   - name: GitHub MCP Server
     repo: https://github.com/github/github-mcp-server
     category: ai-agent

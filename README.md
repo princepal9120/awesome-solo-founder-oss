@@ -204,6 +204,7 @@ Use agents to code, test, browse, inspect design, and run product workflows.
 | [Qwen Code](https://github.com/QwenLM/qwen-code) | Open-source terminal coding agent |
 | [XcodeBuildMCP](https://github.com/getsentry/XcodeBuildMCP) | iOS/macOS build, test, simulator, and logs for agents |
 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | Browser automation and QA for agents |
+| [Agent QA](https://github.com/vostride/agent-qa) | Natural-language web and mobile regression testing with CLI, MCP, execution memory, and UI-change adaptation |
 | [GitHub MCP Server](https://github.com/github/github-mcp-server) | GitHub issues, PRs, repos, and code workflow |
 | [Context7](https://github.com/upstash/context7) | Fresh docs for LLMs and code editors |
 | [MCP Servers](https://github.com/modelcontextprotocol/servers) | Model Context Protocol server collection |

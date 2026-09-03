@@ -212,6 +212,7 @@ Use agents to code, test, browse, inspect design, and run product workflows.
 | [UI-TARS Desktop](https://github.com/bytedance/UI-TARS-desktop) | Open-source multimodal desktop agent stack |
 | [CowAgent](https://github.com/zhayujie/CowAgent) | AI assistant and agent harness |
 | [CodeWhale](https://github.com/Hmbown/CodeWhale) | DeepSeek-first agentic coding terminal |
+| [Superagent](https://github.com/pungme/superagent-desktop) | macOS desktop app giving Claude Code and Codex a real browser, an iOS Simulator, and a phone companion app |
 
 Playbook: [agent-assisted product build sprint](playbooks/agent-assisted-product-build-sprint.md)
 

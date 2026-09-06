@@ -158,6 +158,7 @@ Start with a product-shaped repo instead of a blank folder.
 | [Open SaaS](https://github.com/wasp-lang/open-saas) | SaaS starter with auth, jobs, payments, landing page |
 | [SaaS Boilerplate](https://github.com/ixartz/SaaS-Boilerplate) | Next.js SaaS starter |
 | [XcodeBuildMCP iOS Template](https://github.com/getsentry/XcodeBuildMCP-iOS-Template) | iOS starter template for agent-assisted builds |
+| [MailKite SaaS Starter](https://github.com/mailkite/saas-startup) | Next.js SaaS starter with in-app auth (no auth vendor), Stripe subscriptions, and teams |
 
 ## MVP development
 

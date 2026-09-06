@@ -69,6 +69,10 @@ tools:
     repo: https://github.com/getsentry/XcodeBuildMCP-iOS-Template
     category: starter-kit
     use: iOS starter template for agent-assisted builds
+  - name: MailKite SaaS Starter
+    repo: https://github.com/mailkite/saas-startup
+    category: starter-kit
+    use: Next.js SaaS starter with in-app auth (no auth vendor), Stripe subscriptions, and teams
 
   - name: Payload
     repo: https://github.com/payloadcms/payload

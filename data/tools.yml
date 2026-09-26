@@ -187,6 +187,10 @@ tools:
     repo: https://github.com/princepal9120/shiba
     category: ai-agent
     use: Self-hosted AI coworker on Cloudflare
+  - name: Tonone
+    repo: https://github.com/tonone-ai/tonone
+    category: ai-agent
+    use: Claude Code plugin with specialist agents for engineering, product, design, legal, finance, and growth
 
   - name: Polar
     repo: https://github.com/polarsource/polar

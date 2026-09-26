@@ -287,6 +287,7 @@ Create demand, track campaigns, publish content, and convert leads.
 | [RespectASO](https://github.com/respectlytics/respectaso) | App Store Optimization keyword research |
 
 | [TinyTools](https://github.com/alfredoautomatizaloconia-cloud/tinytools) | OG image generator, SEO meta tag generator, favicon generator, AI background remover, color palette, AI robots.txt generator — all browser-based, no backend |
+| [ThreadFox Lite](https://github.com/amflimited/threadfox-lite) | Read-only Reddit research for launches: subreddit rules with self-promotion rules flagged, communities for a topic, account standing, whether a post stayed up (MCP server + agent skill) |
 ## Content and video
 
 Create launch demos, shorts, UGC, raw-video edits, and programmatic video assets.

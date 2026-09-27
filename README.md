@@ -209,6 +209,7 @@ Use agents to code, test, browse, inspect design, and run product workflows.
 | [Playwright MCP](https://github.com/microsoft/playwright-mcp) | Browser automation and QA for agents |
 | [GitHub MCP Server](https://github.com/github/github-mcp-server) | GitHub issues, PRs, repos, and code workflow |
 | [Context7](https://github.com/upstash/context7) | Fresh docs for LLMs and code editors |
+| [Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) | Encrypted project notes for MCP agents with scoped grants (alpha; Rust source build) |
 | [MCP Servers](https://github.com/modelcontextprotocol/servers) | Model Context Protocol server collection |
 | [MCP Registry](https://github.com/modelcontextprotocol/registry) | Community registry for MCP servers |
 | [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | Curated MCP server list |

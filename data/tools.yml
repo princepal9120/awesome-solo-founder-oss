@@ -166,6 +166,10 @@ tools:
     repo: https://github.com/upstash/context7
     category: ai-agent
     use: Fresh docs for LLMs and code editors
+  - name: Hyperconsciousness
+    repo: https://github.com/louis030195/hyperconsciousness
+    category: ai-agent
+    use: Encrypted project notes for MCP agents with scoped grants (alpha; Rust source build)
   - name: MCP Servers
     repo: https://github.com/modelcontextprotocol/servers
     category: ai-agent

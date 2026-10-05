@@ -216,6 +216,7 @@ Use agents to code, test, browse, inspect design, and run product workflows.
 | [CowAgent](https://github.com/zhayujie/CowAgent) | AI assistant and agent harness |
 || [CodeWhale](https://github.com/Hmbown/CodeWhale) | DeepSeek-first agentic coding terminal |
 || [Shiba](https://github.com/princepal9120/shiba) | Self-hosted AI coworker on Cloudflare — agentic coworker that runs alongside your team |
+| [workkit](https://github.com/ITW-Creative-Works/workkit) | Claude Code plugin that runs GitHub Issues as a delivery pipeline, with agents that spec, build, review and ship each issue |
 
 Playbook: [agent-assisted product build sprint](playbooks/agent-assisted-product-build-sprint.md)
 

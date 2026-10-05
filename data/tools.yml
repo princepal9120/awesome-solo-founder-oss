@@ -82,6 +82,10 @@ tools:
     repo: https://github.com/mailkite/saas-startup
     category: starter-kit
     use: Next.js SaaS starter with in-app auth (no auth vendor), Stripe subscriptions, and teams
+  - name: Omega
+    repo: https://github.com/Omega-JS-Stack/omega
+    category: starter-kit
+    use: Full-stack JavaScript starter that ships a website, backend, desktop app and browser extension from one project and one config
 
   - name: Payload
     repo: https://github.com/payloadcms/payload

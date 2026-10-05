@@ -161,6 +161,7 @@ Start with a product-shaped repo instead of a blank folder.
 | [SaaS Boilerplate](https://github.com/ixartz/SaaS-Boilerplate) | Next.js SaaS starter |
 | [XcodeBuildMCP iOS Template](https://github.com/getsentry/XcodeBuildMCP-iOS-Template) | iOS starter template for agent-assisted builds |
 | [MailKite SaaS Starter](https://github.com/mailkite/saas-startup) | Next.js SaaS starter with in-app auth (no auth vendor), Stripe subscriptions, and teams |
+| [Omega](https://github.com/Omega-JS-Stack/omega) | Full-stack JavaScript starter that ships a website, backend, desktop app and browser extension from one project and one config |
 
 ## MVP development
 

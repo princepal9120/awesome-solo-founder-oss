@@ -337,6 +337,7 @@ Deploy apps, run infrastructure, ship mobile releases, and monitor uptime.
 | [CapRover](https://github.com/caprover/caprover) | Docker-powered app deployment platform |
 | [Dokku](https://github.com/dokku/dokku) | Lightweight Heroku-style PaaS |
 | [OpenStatus](https://github.com/openstatusHQ/openstatus) | Uptime monitoring and status pages |
+| [SolidPing](https://github.com/fclairamb/solidping) | Uptime and synthetic checks, status pages and on-call alerts in one Go binary |
 | [fastlane](https://github.com/fastlane/fastlane) | iOS/Android beta deploys, screenshots, metadata, releases |
 | [video-preview-appstore](https://github.com/mdo91/video-preview-appstore) | App Store preview-compatible MP4 conversion |
 | [App Store Screenshots Generator](https://github.com/jawwadfirdousi/appstore-screenshots-generator) | App Store screenshot generator |

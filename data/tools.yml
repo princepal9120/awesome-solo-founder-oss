@@ -443,6 +443,10 @@ tools:
     repo: https://github.com/openstatusHQ/openstatus
     category: deployment
     use: Uptime monitoring and status pages
+  - name: SolidPing
+    repo: https://github.com/fclairamb/solidping
+    category: deployment
+    use: Uptime and synthetic checks, status pages and on-call alerts in one Go binary
   - name: fastlane
     repo: https://github.com/fastlane/fastlane
     category: deployment

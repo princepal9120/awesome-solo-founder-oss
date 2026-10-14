@@ -320,6 +320,10 @@ tools:
     repo: https://github.com/respectlytics/respectaso
     category: marketing
     use: App Store Optimization keyword research
+  - name: looot-mentions
+    repo: https://github.com/loootai/looot-mentions
+    category: marketing
+    use: Brand and keyword listening on Reddit, Hacker News, news and the web, with a daily digest (paid looot API per run)
 
   - name: ViralMint
     repo: https://github.com/openclaw-easy/ViralMint

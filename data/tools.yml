@@ -443,6 +443,10 @@ tools:
     repo: https://github.com/openstatusHQ/openstatus
     category: deployment
     use: Uptime monitoring and status pages
+  - name: vhr-bench
+    repo: https://github.com/vpshostreview/vhr-vps-benchmark
+    category: deployment
+    use: One-minute benchmark of a VPS's CPU, memory and disk IOPS before you deploy on it
   - name: fastlane
     repo: https://github.com/fastlane/fastlane
     category: deployment

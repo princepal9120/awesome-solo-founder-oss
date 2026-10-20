@@ -188,6 +188,11 @@ tools:
     category: ai-agent
     use: Self-hosted AI coworker on Cloudflare
 
+  - name: Frink
+    repo: https://github.com/benord-labs/frink
+    category: ai-agent
+    use: Desktop-first app for parallel agents and triggered multi-step workflows
+
   - name: Polar
     repo: https://github.com/polarsource/polar
     category: billing

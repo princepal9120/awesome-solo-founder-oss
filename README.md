@@ -253,6 +253,7 @@ Send newsletters, onboarding, transactional mail, and lifecycle nudges.
 | [Dittofeed](https://github.com/dittofeed/dittofeed) | Customer engagement across email, SMS, push, WhatsApp, Slack |
 | [useSend](https://github.com/usesend/useSend) | Open-source transactional email platform |
 | [Ghost](https://github.com/TryGhost/Ghost) | Publishing, newsletters, memberships, subscriptions |
+| [lfr](https://github.com/Anonyfox/lfr) | Mailboxes and newsletters for your domains from one binary on a small server |
 
 ## Support, CRM, and community
 

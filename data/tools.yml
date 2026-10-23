@@ -246,6 +246,10 @@ tools:
     repo: https://github.com/TryGhost/Ghost
     category: email
     use: Publishing, newsletters, memberships, and subscriptions
+  - name: lfr
+    repo: https://github.com/Anonyfox/lfr
+    category: email
+    use: Mailboxes and newsletters for your domains from one binary on a small server
 
   - name: Twenty
     repo: https://github.com/twentyhq/twenty

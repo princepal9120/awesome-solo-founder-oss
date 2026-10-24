@@ -150,6 +150,7 @@ Create landing pages, prototypes, and design-to-code workflows.
 | [Figma Context MCP](https://github.com/GLips/Figma-Context-MCP) | Figma layout context for AI coding agents |
 || [Hyperframes](https://github.com/heygen-com/hyperframes) | HTML-to-video launch explainers |
 || [iconscan](https://github.com/princepal9120/iconscan) | Deterministic icon audits for React/Next.js/TS apps — score, find dead icons, recommend alternatives |
+| [lfm](https://github.com/Anonyfox/lfm) | Agent-built landing pages from real buyer research, compiled and checked before they ship |
 
 ## Starter kits
 

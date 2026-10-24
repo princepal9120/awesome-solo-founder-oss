@@ -65,6 +65,10 @@ tools:
     repo: https://github.com/princepal9120/iconscan
     category: design
     use: Deterministic icon audits for React/Next.js/TS apps
+  - name: lfm
+    repo: https://github.com/Anonyfox/lfm
+    category: design
+    use: Agent-built landing pages from real buyer research, compiled and checked before they ship
 
   - name: Open SaaS
     repo: https://github.com/wasp-lang/open-saas

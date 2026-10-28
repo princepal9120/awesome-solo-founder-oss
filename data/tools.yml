@@ -320,6 +320,10 @@ tools:
     repo: https://github.com/respectlytics/respectaso
     category: marketing
     use: App Store Optimization keyword research
+  - name: AsoBeast
+    repo: https://github.com/AsoBeast/asobeast
+    category: marketing
+    use: App Store and Google Play keyword rank tracking, competitor and review monitoring, with API and MCP access
 
   - name: ViralMint
     repo: https://github.com/openclaw-easy/ViralMint

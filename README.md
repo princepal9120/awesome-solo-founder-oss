@@ -285,6 +285,7 @@ Create demand, track campaigns, publish content, and convert leads.
 | [LinkStack](https://github.com/LinkStackOrg/LinkStack) | Self-hosted link-in-bio/profile page |
 | [seotoolsuite](https://github.com/nitishkgupta/seotoolsuite) | SEO tooling |
 | [RespectASO](https://github.com/respectlytics/respectaso) | App Store Optimization keyword research |
+| [AsoBeast](https://github.com/AsoBeast/asobeast) | App Store and Google Play keyword rank tracking, competitor and review monitoring, with API and MCP access |
 
 | [TinyTools](https://github.com/alfredoautomatizaloconia-cloud/tinytools) | OG image generator, SEO meta tag generator, favicon generator, AI background remover, color palette, AI robots.txt generator — all browser-based, no backend |
 ## Content and video

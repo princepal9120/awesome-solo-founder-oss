@@ -369,6 +369,7 @@ Local tools for faster solo-operator workflows.
 | [Zoxide](https://github.com/ajeetdsouza/zoxide) | Smarter terminal directory jumping |
 || [devrunner](https://github.com/princepal9120/devrunner) | Rust-powered terminal task runner with zero configuration |
 || [MacPulse](https://github.com/princepal9120/MacPulse) | Native macOS system utility — deep cache cleaning, app uninstall residuals, APFS analysis, duplicate finding, live resource monitoring |
+| [Friday Invoice Chase Ranker](https://github.com/SirMem/friday-invoice-chase-tool) | Local-first browser tool that ranks which overdue invoices to chase this Friday (60+ days first; no login) |
 
 ## Data
 

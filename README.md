@@ -352,6 +352,7 @@ Reduce launch risk before users, money, and customer data arrive.
 | [Bitwarden Clients](https://github.com/bitwarden/clients) | Password manager clients and CLI |
 | [Trail of Bits skills](https://github.com/trailofbits/skills) | Claude Code security research and audit skills |
 | [Documenso](https://github.com/documenso/documenso) | Open-source DocuSign alternative |
+| [Vibe Security Checklist](https://github.com/zColdWater/vibe-security-checklist) | MIT pre-launch security header/RLS templates, local bundle secret scanner, and passive live verifier |
 
 ## Productivity
 
